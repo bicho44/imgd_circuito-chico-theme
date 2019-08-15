@@ -1,0 +1,50 @@
+@import 'variables.less';
+@import "sitio-variables.less";
+
+@import 'mixins.less';
+
+    /* =Styles for 'normal' meta boxes
+    -------------------------------------------------------------- */
+.inside {
+    .clearfix();
+
+    /*     For IE 6/7 (trigger hasLayout) 
+        zoom: 1; 
+        
+        &:before,
+        &:after {
+            content: "";
+            display: table;
+        }
+        &:after {
+            clear: both;
+        }*/
+
+}
+
+
+.error {
+    color: darken(red, 10%);
+    background-color: lighten(red, 40%);
+    padding: 3px;
+}
+
+
+.widefat {
+    .column-image{
+        width: 6em;
+    }
+    .column-it_exchange_product_show_in_store {
+        width: 9em;
+    }
+    .column-precio,
+    .column-it_exchange_product_price
+    {
+        width: 5em;
+        text-align: right;
+    }
+}
+/* Hide Feature Images I gonna replace it width Piklist*/
+#postimagediv{
+    display: none;
+}

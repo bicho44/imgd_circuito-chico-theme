@@ -1,0 +1,214 @@
+/* Menu Social */
+
+/**
+* FontAwesome Regular
+* Fuente para los títulos secundarios
+**/
+
+//@FontAwesomePath:   "../fonts";
+//@borderColor:       #eee;
+//@iconMuted:         #eee;
+
+/*@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?v=3.2.1');
+  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?#iefix&?v=3.2.1') format('embedded-opentype'),
+  url('@{FontAwesomePath}/fontawesome-webfont.woff??v=3.2.1') format('woff'),
+  url('@{FontAwesomePath}/fontawesome-webfont.ttf??v=3.2.1') format('truetype');
+  //    url('@{FontAwesomePath}/fontawesome-webfont.svg#fontawesomeregular??v=3.2.1') format('svg');
+
+  //  src: url('@{FontAwesomePath}/FontAwesome.otf') format('opentype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+@font-social-size: @font-size-large*1.3;
+
+.screen-reader-text {
+  position: absolute;
+  top:      -9999em;
+  left:     -9999em;
+}
+
+#menu-social {
+  padding: 10px 0;
+  float: right;
+}
+
+#menu-social ul
+{
+  list-style: none;
+  margin:     0;
+  padding-left: 0;
+  text-align: center;
+
+  @media (min-width: @screen-md-min) {
+    text-align: left;
+  }
+}
+
+#menu-social ul li{
+  display:  inline-block;
+  position: relative;
+  a {
+    color:   @social-link-color;
+    &:hover {
+      color:  darken(@social-link-hover-color, 20%);
+    }
+  }
+}
+
+#menu-social li a::before {
+  content:        '\f408';
+  display:        inline-block;
+  padding:        0 5px;
+  font-family:    'FontAwesome', sans-serif;
+  font-size:      @font-social-size;
+  vertical-align: top;
+
+  -webkit-font-smoothing: antialiased;
+  &:hover {
+    color:   @social-link-hover-color;
+  }
+
+}
+
+
+#barra-social ul li {
+
+  &:hover {
+    background-color: @social-background-color;
+  }
+
+
+  a[href*="facebook.com"]{
+    background-color: @facebook-color;
+    &:hover{
+      background-color: darken(@facebook-color, 15%);
+      border: none;
+    }
+  }
+
+  a[href*="plus.google.com"]{
+    background-color: @google-color;
+    &:hover{
+      background-color: darken(@google-color, 15%);
+      border: none;
+    }
+  }
+  a[href*="twitter.com"]{
+    background-color: @twitter-color;
+    &:hover{
+      background-color: darken(@twitter-color, 15%);
+      border: none;
+    }
+  }
+  a[href*="youtube.com"]{
+    background-color: @youtube-color;
+    &:hover{
+      background-color: darken(@youtube-color, 15%);
+      border: none;
+    }
+  }
+
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &::before {
+      content: '\f408';
+      display: block;
+      padding: 0 5px;
+      font-family: 'FontAwesome', sans-serif;
+      font-size: @font-size-large;
+      vertical-align: top;
+      horiz-align: center;
+
+      -webkit-font-smoothing: antialiased;
+      &:hover {
+         color:   #fff;
+       }
+
+    }
+
+  }
+}
+
+#menu-social li a[href*="wordpress.org"]::before,
+#barra-social li a[href*="wordpress.com"]::before {
+  content: "\f087";
+  /*color:   #21759b;*/
+}
+#menu-social li a[href*="facebook.com"]::before,
+#barra-social li a[href*="facebook.com"]::before{
+  content: "\f082";
+  /*color:   #3b5998;*/
+}
+#menu-social li a[href*="twitter.com"]::before,
+#barra-social li a[href*="twitter.com"]::before{
+  content: "\f099";
+  /*color:   #33ccff;*/
+}
+#menu-social li a[href*="dribbble.com"]::before,
+#barra-social li a[href*="dribbble.com"]::before {
+  content: '\f201';
+  /*color:   #ea4c89;*/
+}
+#menu-social li a[href*="plus.google.com"]::before,
+#barra-social li a[href*="plus.google.com"]::before{
+  content: "\f0d4";
+  /*color: #dd4b39;*/
+}
+#menu-social li a[href*="pinterest.com"]::before,
+#barra-social li a[href*="pinterest.com"]::before{
+  content: '\f210';
+  /*color:   #c8232c;*/
+}
+#menu-social li a[href*="github.com"]::before,
+#barra-social li a[href*="github.com"]::before{
+  content: '\f200';
+  /* color:   #171515;*/
+}
+#menu-social li a[href*="tumblr.com"]::before,
+#barra-social li a[href*="tumblr.com"]::before{
+  content: '\f214';
+  /* color:   #34526f;*/
+}
+#menu-social li a[href*="youtube.com"]::before,
+#barra-social li a[href*="youtube.com"]::before{
+  content: '\f167';
+
+  /*color:   #c4302b;*/
+}
+#menu-social li a[href*="flickr.com"]::before,
+#barra-social li a[href*="flickr.com"]::before{
+  content: '\f211';
+  /*color:   #ff0084;*/
+}
+#menu-social li a[href*="vimeo.com"]::before,
+#barra-social li a[href*="vimeo.com"]::before{
+  content: '\f212';
+  /*color:   #1AB7EA;*/
+}
+#menu-social li a[href*="instagram.com"]::before,
+#barra-social li a[href*="instagram.com"]::before{
+  content: '\f215';
+  /*color:   #3f729b;*/
+}
+#menu-social li a[href*="codepen.io"]::before,
+#barra-social li a[href*="codepen.io"]::before{
+  content: '\f216';
+  /*color:   #000;*/
+}
+#menu-social li a[href*="linkedin.com"]::before,
+#barra-social li a[href*="linkedin.com"]::before{
+  content: '\f208';
+  /*color:   #0e76a8;*/
+}
