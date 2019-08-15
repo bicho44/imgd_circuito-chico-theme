@@ -219,7 +219,7 @@ require get_template_directory() . '/inc/extras.php';
 /**
  * IMGD additions.
  */
-require get_template_directory() . '/imgd/imgd_funciones.php';
+require get_template_directory() . '/imgd-framework/imgd_funciones.php';
 
 /**
  * Load Jetpack compatibility file.

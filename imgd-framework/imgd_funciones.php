@@ -99,7 +99,7 @@ add_action( 'after_setup_theme', 'imgd_theme_add_font_editor_styles' );
 
 
 // Include and instantiate the class.
-require_once get_template_directory() . '/imgd/mobile/Mobile_Detect.php';
+require_once get_template_directory() . '/imgd-framework/mobile/Mobile_Detect.php';
 $isMobile = new Mobile_Detect;
 
 function if_mobile_get_me_this_class($class='', $echo='false'){
@@ -118,23 +118,23 @@ function if_mobile_get_me_this_class($class='', $echo='false'){
  *
  * @package: IMGD Framework
  */
-require get_template_directory() . '/imgd/imgd_fonts.php';
-require get_template_directory() . '/imgd/imgd_images_sizes.php';
-require get_template_directory() . '/imgd/imgd_gallery.php';
-require get_template_directory() . '/imgd/imgd_nav.php';
-require get_template_directory() . '/imgd/imgd_child_pages.php';
-require get_template_directory() . '/imgd/imgd_comment_bootstrap.php';
-require get_template_directory() . '/imgd/imgd_link_navigation.php';
+require get_template_directory() . '/imgd-framework/imgd_fonts.php';
+require get_template_directory() . '/imgd-framework/imgd_images_sizes.php';
+require get_template_directory() . '/imgd-framework/imgd_gallery.php';
+require get_template_directory() . '/imgd-framework/imgd_nav.php';
+require get_template_directory() . '/imgd-framework/imgd_child_pages.php';
+require get_template_directory() . '/imgd-framework/imgd_comment_bootstrap.php';
+require get_template_directory() . '/imgd-framework/imgd_link_navigation.php';
 //require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
-//require get_template_directory() . '/imgd/imgd_widgets.php';
-//require get_template_directory() . '/imgd/imgd_pagination.php';
-//require get_template_directory() . '/inc/imgd/imgd_it_exchange.php';
-//require get_template_directory() . '/imgd/imgd_archive_order.php';
-require get_template_directory() . '/imgd/imgd_settings.php';
-//require get_template_directory() . '/inc/imgd/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
+//require get_template_directory() . '/imgd-framework/imgd_widgets.php';
+//require get_template_directory() . '/imgd-framework/imgd_pagination.php';
+//require get_template_directory() . '/inc/imgd-framework/imgd_it_exchange.php';
+//require get_template_directory() . '/imgd-framework/imgd_archive_order.php';
+require get_template_directory() . '/imgd-framework/imgd_settings.php';
+//require get_template_directory() . '/inc/imgd-framework/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 
-require get_template_directory() . '/imgd/imgd_shortcode.php';
-require get_template_directory() . '/imgd/imgd_jetpack_mods.php';
+require get_template_directory() . '/imgd-framework/imgd_shortcode.php';
+require get_template_directory() . '/imgd-framework/imgd_jetpack_mods.php';
 
 
 
@@ -172,8 +172,8 @@ add_filter( 'get_the_archive_title', function ( $title ) {
  * Registro del Menú Social
  */
 function imgd_register_menus() {
-    register_nav_menu( 'social', __( 'Social', 'imgdigital' ) );
-    register_nav_menu( 'secondary', __( 'Secundario', 'imgdigital' ) );
+    register_nav_menu( 'social', __( 'Social', 'imgd' ) );
+    register_nav_menu( 'secondary', __( 'Secundario', 'imgd' ) );
 }
 add_action( 'init', 'imgd_register_menus' );
 
