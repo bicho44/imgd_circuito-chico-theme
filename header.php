@@ -30,6 +30,11 @@
 				<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand" 
 					title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" 
 					rel="home">
+
+					<?php if ( has_custom_logo() ) : ?>
+						<div class="site-logo"><?php the_custom_logo(); ?></div>
+					<?php endif; ?>
+
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
 					alt="<?php esc_attr(bloginfo('name')); ?>"
 					height="100px">
