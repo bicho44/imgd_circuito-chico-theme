@@ -24,8 +24,6 @@ Flow: Opciones Theme
 
 */
 
-
-
 /*
 piklist (
     'field',
@@ -88,10 +86,10 @@ piklist (
 $sliders=array();
 $sliders['boo']=__('Carousel Bootstrap','imgd');
 
-if(function_exists(revslider)) {
+if(function_exists('revslider')) {
   $sliders['rev']=__('Revolution Slider','imgd');
 }
-if(function_exists(owlslider)) {
+if(function_exists('owlslider')) {
   $sliders['owl']=__('Owl Slider','imgd');
 }
 
@@ -184,9 +182,15 @@ piklist (
             1 => __('Si', 'imgd')
         )
         , 'position' => 'wrap'
-        
+        ,'conditions' => array(
+            array(
+                'field' => 'imgd_slider'
+                , 'value' => 1
+            )
     )
+)
 );
+
 
 piklist (
     'field',
@@ -218,6 +222,52 @@ piklist(
         , 'conditions' => array(
                     array(
                         'field' => 'imgd_destaca'
+                        , 'value' => 1
+                    )
+                )
+        ,'attributes' => array(
+                'class' => 'small-text'
+        )
+        , 'choices' => array(
+            2 => 2,
+            3 => 3,
+            4 => 4,
+            6 => 6
+        )
+    )
+);
+
+
+piklist (
+    'field',
+    array(
+        'type' => 'radio',
+        'scope' => 'post_meta',
+        'field' => 'imgd_actividades',
+        'label' => __('Mostar Línea de actividades en la Home Page', 'imgd'),
+        'value' => 0,
+        'attributes' => array(
+            'class' => 'radio'
+        ),
+        'choices' => array(
+            0 => __('No', 'imgd'),
+            1 => __('Si', 'imgd')
+        ),
+        'position' => 'wrap'
+    )
+);
+
+piklist(
+    'field', 
+    array(
+        'type' => 'select'
+        ,'field' => 'imgd_actividades_cant'
+        ,'description' => __('Cuantas Actividades Mostrar', 'imgd')
+        ,'value' => '6'
+        ,'label' => __('Cantidad', 'imgd')
+        , 'conditions' => array(
+                    array(
+                        'field' => 'imgd_actividades'
                         , 'value' => 1
                     )
                 )

@@ -25,6 +25,25 @@
 		"oAP": "/404.php",
 		"oF": 0
 		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 12069,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/archive-imgd_actividades.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/archive-imgd_actividades.php",
+		"oF": 0
+		},
 	"/archive-imgd_chef.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -180,7 +199,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"/assets/images/logo.png": {
 		"ft": 32768,
@@ -191,7 +210,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"/assets/js/script-ck.js": {
 		"bF": 0,
@@ -1173,7 +1192,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"/search.php": {
 		"cB": 0,
@@ -1295,6 +1314,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content-front/columnas.php",
+		"oF": 0
+		},
+	"/template-parts/content-front/destacados-actividades.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content-front/destacados-actividades.php",
 		"oF": 0
 		},
 	"/template-parts/content-front/destacados-news.php": {
@@ -1472,8 +1499,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 587845665.05173898,
-	"displayValue": "imgd_circuito-chico",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Theme Circuito Chico Adventures",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 1
 	},
@@ -3349,7 +3376,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 90
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3382,7 +3409,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0,
-		"shouldRunHTMLMinifier": 0
+		"shouldRunHTMLMinifier": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3442,7 +3469,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 90
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
