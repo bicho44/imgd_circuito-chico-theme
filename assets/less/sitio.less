@@ -230,6 +230,7 @@ animation:         KEYFRAME-NAME 5s infinite;
     border-top: @footer-border-size solid @footer-border-color;
     color: @footer-text-color;
     margin-top: @footer-margin-top;
+    min-height: 30vh;
 
     h2 {
         color: darken(@footer-text-color,50);
@@ -279,3 +280,45 @@ animation:         KEYFRAME-NAME 5s infinite;
         bottom: 40px;
     }
 }
+
+//---- Actividades
+.imgd-actividades {
+    display: grid;
+    grid-template-columns: 1.5em auto 1.5em;
+    grid-template-areas: 
+    "header header header"
+    ". content .";
+
+    .page-title {
+        grid-area: header;
+    }
+}
+
+.actividades {
+    display: grid;
+    grid-area: content;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: .8em;
+
+    .actividad {
+        img{max-width: 100%;}
+        .destacados-caption{
+            h3{font-size: 20px;}
+        }
+        .destacados-caption-texto{
+            font-size: 14px;
+        }
+    }
+}
+/*
+    <header class="destacados-caption">
+<h3 class="align-center">
+    <a href="<?php the_permalink(); ?>" rel="bookmark">
+    <?php shortentext(get_the_title(), 65);?>
+    </a>
+</h3>
+<div class="destacados-caption-texto">
+    <?php shortentext(get_the_content(), 200);  ?>
+</div>
+</header><!-- .entry-header -->
+    */

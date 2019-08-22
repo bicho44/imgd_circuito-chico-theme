@@ -112,24 +112,6 @@
 		"oAP": "/assets/css/admin.css.map",
 		"oF": 0
 		},
-	"/assets/css/bootstrap.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/bootstrap-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/assets/css/bootstrap.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/css/bootstrap.css.map",
-		"oF": 0
-		},
 	"/assets/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -212,6 +194,28 @@
 		"oT": 1,
 		"q": 90
 		},
+	"/assets/images/teaser-image-baja.jpg": {
+		"ft": 16384,
+		"iS": 1511949,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/teaser-image-baja.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
+		},
+	"/assets/images/Teaser-Image.jpg": {
+		"ft": 16384,
+		"iS": 998184,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/Teaser-Image.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
+		},
 	"/assets/js/script-ck.js": {
 		"bF": 0,
 		"ft": 64,
@@ -276,9 +280,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/admin-editor.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -293,9 +297,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/admin.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -318,7 +322,7 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/assets/less/bootstrap-reference.less": {
+	"/assets/less/bootstrap.less": {
 		"aP": 0,
 		"bl": 0,
 		"eJ": 0,
@@ -328,24 +332,7 @@
 		"ma": 1,
 		"mS": 1,
 		"oA": 0,
-		"oAP": "/assets/css/bootstrap-reference.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
-		},
-	"/assets/less/bootstrap.less": {
-		"aP": 1,
-		"bl": 1,
-		"eJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"mS": 1,
-		"oA": 0,
-		"oAP": "/assets/css/bootstrap.css",
+		"oAP": "/assets/css/style.css",
 		"oF": 2,
 		"oS": 0,
 		"rwU": 0,
@@ -684,9 +671,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/xbootstrap.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -701,9 +688,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/xvariables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -1316,6 +1303,14 @@
 		"oAP": "/template-parts/content-front/columnas.php",
 		"oF": 0
 		},
+	"/template-parts/content-front/contenido-especial.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content-front/contenido-especial.php",
+		"oF": 0
+		},
 	"/template-parts/content-front/destacados-actividades.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1507,7 +1502,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -2967,7 +2962,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "http://bichotest.local",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3559,7 +3554,7 @@
 	"npmInstallOptionalDependencies": 0,
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
-	"overrideExternalServerCSS": 0,
+	"overrideExternalServerCSS": 1,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",

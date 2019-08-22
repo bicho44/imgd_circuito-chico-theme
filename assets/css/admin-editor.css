@@ -235,7 +235,7 @@ small,
 mark,
 .mark {
   background-color: #fcf8e3;
-  padding: .2em;
+  padding: 0.2em;
 }
 .text-left {
   text-align: left;
@@ -1259,7 +1259,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   }
 }
 .newsfeature article header.destacados-caption {
-  transition: all .5s;
+  transition: all 0.5s;
   position: absolute;
   bottom: 0;
   background: #e57200;
@@ -1449,7 +1449,7 @@ fieldset[disabled] a.more-link {
   margin-right: 10px;
 }
 .ultimas .entry-content {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 .entry-header .entry-meta {
   text-align: right;
@@ -1463,6 +1463,7 @@ fieldset[disabled] a.more-link {
   border-top: 2px solid #777777;
   color: #333333;
   margin-top: 20px;
+  min-height: 30vh;
 }
 .wrapfooter h2 {
   color: #000000;
@@ -1508,4 +1509,37 @@ fieldset[disabled] a.more-link {
     bottom: 40px;
   }
 }
+.imgd-actividades {
+  display: grid;
+  grid-template-columns: 1.5em auto 1.5em;
+  grid-template-areas: "header header header" ". content .";
+}
+.imgd-actividades .page-title {
+  grid-area: header;
+}
+.actividades {
+  display: grid;
+  grid-area: content;
+}
+.actividades .actividad img {
+  max-width: 100%;
+}
+.actividades .actividad .destacados-caption h3 {
+  font-size: 20px;
+}
+.actividades .actividad .destacados-caption-texto {
+  font-size: 14px;
+}
+/*
+    <header class="destacados-caption">
+<h3 class="align-center">
+    <a href="<?php the_permalink(); ?>" rel="bookmark">
+    <?php shortentext(get_the_title(), 65);?>
+    </a>
+</h3>
+<div class="destacados-caption-texto">
+    <?php shortentext(get_the_content(), 200);  ?>
+</div>
+</header><!-- .entry-header -->
+    */
 /*# sourceMappingURL=admin-editor.css.map */

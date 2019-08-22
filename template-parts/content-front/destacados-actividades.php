@@ -13,69 +13,32 @@ $args = array('post_type' => array('imgd_actividad'),
 $loop = new WP_Query($args);
 
 if ($loop->have_posts()) {?>
-<section class="container imgd-destacados-news">
-  <div class="row newsfeature">
+<section class="imgd-actividades">
+      <?php
+        the_archive_title( '<h1 class="page-title">', '</h1>' );
+        the_archive_description( '<div class="archive-description">', '</div>' );
+			?>
       <?php
       $x = 0;
-      $destacadosnewsID = array();  
+      $destacadosnewsID = array();
+?>
 
-// Exclude tablets.
-if (!$isMobile->isMobile() && !$isMobile->isTablet() ) {  ?>
-<?php 
-while ($loop->have_posts()) : $loop->the_post();
+<div class="actividades">
+<?php
+    while ($loop->have_posts()) : $loop->the_post();
+
       $destacadosnewsID[] = get_the_ID();
 ?>
-  <?php
-  if ($x==0) {
-  ?>
-  <!-- Columna Principal -->
-  <div class="news-principal col-md-8">
-    <article id="post-<?php the_ID(); ?>">
-      <div class="thumbnail">
-        <?php get_template_part('template-parts/content-archive', 'desta-news'); ?>
-      </div><!-- End Thumbanil -->
-    </article> 
-  </div>
-  <!-- End Columna Principal -->
-
-  <!-- Columna Secundaria -->
-  <div class="news-principal col-md-4">
-      <?php
-      } 
-    if ($x>0) {
-      ?>
-        <article id="post-<?php the_ID(); ?>" <?php //post_class('col-md-2 col-sm-4 col-xs-6'); ?>>
-          <div class="thumbnail">
-            <?php get_template_part('template-parts/content-archive', 'desta-news-gral'); ?>
-          </div>
-        </article>
-    <?php } ?> 
-    
+      <article id="post-<?php the_ID(); ?>" class="actividad">
+          <?php get_template_part('template-parts/content-archive', 'desta-news'); ?>
+      </article> <!-- End Actividad -->
   <?php $x++; ?>
-<?php endwhile; ?>
-
-    </div> <!-- End Columna secundaria -->
-
-<?php } else { ?>
-<?php 
-while ($loop->have_posts()) : $loop->the_post();
-      $destacadosnewsID[] = get_the_ID();
-?>
-<div class="news-principal col-md-4">
-    <article id="post-<?php the_ID(); ?>">
-      <div class="thumbnail">
-        <?php get_template_part('template-parts/content-archive', 'desta-news'); ?>
-      </div><!-- End Thumbanil -->
-    </article> 
-  </div>
-
-  <?php $x++; ?>
-<?php endwhile; ?>
-<?php } ?>
-  </div> <!-- End row -->
-
+  <?php endwhile; ?>
+  
+</div>
 </section>
 <?php } ?>
+
 <?php wp_reset_query();
 //var_dump($destacadosID);
 ?>

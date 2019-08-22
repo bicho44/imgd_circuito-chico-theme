@@ -18,7 +18,7 @@ if (has_post_thumbnail()) {?>
 <?php } ?>
 
 <header class="destacados-caption">
-    <h3 class="align-center">
+    <h3>
         <a href="<?php the_permalink(); ?>" rel="bookmark">
         <?php shortentext(get_the_title(), 65);?>
         </a>
