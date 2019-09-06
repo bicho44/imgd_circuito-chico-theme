@@ -47,6 +47,6 @@
 
 		</div> <!-- /.navbar-collapse -->
 
-	</div> <!--/.container
+	</div> <!--/.container -->
 </nav>
 <!-- </div> -->

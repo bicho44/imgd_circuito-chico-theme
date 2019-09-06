@@ -9,13 +9,14 @@
 
 get_header(); 
 ?>
-
+<div class="grilla">
 <?php
  while ( have_posts() ) : the_post();
+
  	the_content();
  endwhile; // End of the loop.
  ?>
-
+</div>
 <?php 
 //Contenido que viene desde el plug-in
 include( locate_template( 'template-parts/content-front/contenido-especial.php' ) ); ?>

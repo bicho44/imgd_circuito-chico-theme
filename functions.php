@@ -22,7 +22,7 @@ function turismointer_setup() {
 	 * If you're building a theme based on Turismo InterOceánico, use a find and replace
 	 * to change 'turismointer' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'turismointer', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'imgd', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -79,7 +79,7 @@ function turismointer_setup() {
 		'caption',
 	) );
 
-	add_theme_support( 'post-formats', array( 'link', 'video' ) );
+	//add_theme_support( 'post-formats', array( 'link', 'video' ) );
 
 	// Set up the WordPress core custom background feature.
 	/*add_theme_support( 'custom-background', apply_filters( 'turismointer_custom_background_args', array(
@@ -231,15 +231,15 @@ require get_template_directory() . '/inc/jetpack.php';
 //add_action( 'awebooking/before_main_content', 'awebooking_output_content_wrapper', 10 );
 //add_action( 'awebooking/after_main_content', 'awebooking_output_content_wrapper_end', 10 );
 
-add_filter( 'awebooking/before_main_content', 'imgd_awebooking_output_content_wrapper' );
-function imgd_awebooking_output_content_wrapper() {
-  echo '<div id="primary" class="content-area container"><!-- container -->';
-}
+// add_filter( 'awebooking/before_main_content', 'imgd_awebooking_output_content_wrapper' );
+// function imgd_awebooking_output_content_wrapper() {
+//   echo '<div id="primary" class="content-area container"><!-- container -->';
+// }
 
-add_filter( 'awebooking/after_main_content', 'imgd_awebooking_output_content_wrapper_end' );
-function imgd_awebooking_output_content_wrapper_end() {
-  echo '</div><!-- end container-->';
-}
+// add_filter( 'awebooking/after_main_content', 'imgd_awebooking_output_content_wrapper_end' );
+// function imgd_awebooking_output_content_wrapper_end() {
+//   echo '</div><!-- end container-->';
+// }
 
  //add_action( 'awebooking/sidebar', 'awebooking_get_sidebar', 10 );
 /*

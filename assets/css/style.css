@@ -10158,6 +10158,10 @@ fieldset[disabled] a.more-link {
     bottom: 40px;
   }
 }
+.grilla {
+  display: grid;
+  grid-template-columns: 1.5em auto 1.5em;
+}
 .imgd-actividades {
   display: grid;
   grid-template-columns: 1.5em auto 1.5em;
@@ -10169,7 +10173,7 @@ fieldset[disabled] a.more-link {
 .actividades {
   display: grid;
   grid-area: content;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
   grid-column-gap: 0.8em;
 }
 .actividades .actividad img {

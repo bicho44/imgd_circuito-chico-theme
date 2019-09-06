@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'filmarte' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header container" role="banner">
 		<div class="row">
 			<div class="brand col-md-4">
 				<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand" 
@@ -37,12 +37,12 @@
 
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
 					alt="<?php esc_attr(bloginfo('name')); ?>"
-					height="100px">
+					height="80px">
 				</a>
 			</div>
 			<div class="sidebar-top col-md-8">
 				<?php dynamic_sidebar( 'sidebar-top' ); ?>
 			</div>
 		</div>
-			<?php get_template_part('template-parts/menu','bootstrap-no-brand'); ?>
+		<?php get_template_part('template-parts/menu','bootstrap-no-brand'); ?>
 	</header><!-- #masthead -->
