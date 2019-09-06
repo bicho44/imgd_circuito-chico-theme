@@ -7,8 +7,13 @@
 * @package Filmarte
 */
 
-get_header(); 
+get_header();
 ?>
+
+<?php
+//Contenido que viene desde el plug-in
+include( locate_template( 'template-parts/content-front/contenido-especial.php' ) ); ?>
+
 <div class="grilla">
 <?php
  while ( have_posts() ) : the_post();
@@ -17,8 +22,6 @@ get_header();
  endwhile; // End of the loop.
  ?>
 </div>
-<?php 
-//Contenido que viene desde el plug-in
-include( locate_template( 'template-parts/content-front/contenido-especial.php' ) ); ?>
+
 
 <?php get_footer(); ?>

@@ -50,7 +50,7 @@ function turismointer_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'imgd' ),
 	) );
-	
+
 	/*
 		$menuname = 'primary';
 		$bpmenulocation = 'Primary';
@@ -62,7 +62,7 @@ function turismointer_setup() {
 			wp_update_nav_menu_item($menu_id, 0, array(
 				'menu-item-title' =>  __('Home'),
 				'menu-item-classes' => 'home',
-				'menu-item-url' => home_url( '/' ), 
+				'menu-item-url' => home_url( '/' ),
 				'menu-item-status' => 'publish'));
 		}
 	*/
@@ -119,9 +119,9 @@ function turismointer_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'          => esc_html__( 'Front Page Sidebar Linea columnas', 'imgd' ),
-		'id'            => 'front-page-sidebar-1',
-		'description'   => esc_html__( 'Area de Widgets para la línea de 3 columnas', 'imgd' ),
+		'name'          => esc_html__( 'Side Bar Top', 'imgd' ),
+		'id'            => 'side-bar-top',
+		'description'   => esc_html__( 'Area de Widgets para un menu de idiomas o Redes Sociale', 'imgd' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -167,7 +167,7 @@ function turismointer_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-	
+
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer SideBar 3', 'imgd' ),
 		'id'            => 'footer-3-sidebar',

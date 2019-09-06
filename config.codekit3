@@ -2367,6 +2367,14 @@
 		"oAP": "/template-parts/menu-bootstrap.php",
 		"oF": 0
 		},
+	"/template-parts/menu-flex.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/menu-flex.php",
+		"oF": 0
+		},
 	"/template-parts/menu-social.php": {
 		"cB": 0,
 		"ft": 8192,
