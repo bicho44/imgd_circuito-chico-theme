@@ -271,6 +271,125 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/less-html/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/main.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/modifiers.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/modifiers.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/normalize.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/style.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/type.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/type.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/assets/less/admin-editor.less": {
 		"aP": 0,
 		"bl": 0,
@@ -752,6 +871,14 @@
 		"oAP": "/header-org.php",
 		"oF": 0
 		},
+	"/header-org2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-org2.php",
+		"oF": 0
+		},
 	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -759,6 +886,807 @@
 		"oA": 0,
 		"oAP": "/header.php",
 		"oF": 0
+		},
+	"/html-site/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/.gitignore",
+		"oF": 0
+		},
+	"/html-site/actividad.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/actividad.html",
+		"oF": 0
+		},
+	"/html-site/actividad.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/html-site/actividad.html",
+		"oF": 0
+		},
+	"/html-site/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 12069,
+		"oA": 0,
+		"oAP": "/html-site/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/html-site/assets/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/html-site/assets/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/css/style.css.map",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Goudy_Bookletter_1911/GoudyBookletter1911-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Goudy_Bookletter_1911/GoudyBookletter1911-Regular.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Goudy_Bookletter_1911/OFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Goudy_Bookletter_1911/OFL.txt",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/LICENSE.txt",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-Bold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-Light.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-LightItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-LightItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-Regular.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-RegularItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-RegularItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-SemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-SemiBold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/OFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/OFL.txt",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Black.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Black.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-BlackItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-BlackItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Bold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-ExtraBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-ExtraBold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-ExtraLight.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-ExtraLight.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Light.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-LightItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-LightItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Medium.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-MediumItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-MediumItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Regular.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-RegularItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-RegularItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-SemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-SemiBold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-Thin.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Raleway/Raleway-ThinItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Raleway/Raleway-ThinItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-Bold.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-Light.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-Medium.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-Regular.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/Ubuntu-RegularItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/Ubuntu-RegularItalic.ttf",
+		"oF": 0
+		},
+	"/html-site/assets/fonts/Ubuntu/UFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/fonts/Ubuntu/UFL.txt",
+		"oF": 0
+		},
+	"/html-site/assets/images/actividades/bike-dlx-05.jpg": {
+		"ft": 16384,
+		"iS": 303853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/bike-dlx-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/bike-std-05.jpg": {
+		"ft": 16384,
+		"iS": 295207,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/bike-std-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/bike-DLX-02.jpg": {
+		"ft": 16384,
+		"iS": 347959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/bike-DLX-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/bike-DLX-03.jpg": {
+		"ft": 16384,
+		"iS": 227850,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/bike-DLX-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/bike-DLX-05.jpg": {
+		"ft": 16384,
+		"iS": 330194,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/bike-DLX-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/kayak-sp-03.jpg": {
+		"ft": 16384,
+		"iS": 332354,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/kayak-sp-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/kayak-sp-04.jpg": {
+		"ft": 16384,
+		"iS": 333731,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/kayak-sp-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/kayak-sp-05.jpg": {
+		"ft": 16384,
+		"iS": 300075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/kayak-sp-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/SUP-02.jpg": {
+		"ft": 16384,
+		"iS": 175025,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/SUP-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/SUP-03.jpg": {
+		"ft": 16384,
+		"iS": 204594,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/SUP-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/combo-deluxe/SUP-04.jpg": {
+		"ft": 16384,
+		"iS": 211164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/combo-deluxe/SUP-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/kayak-doble-05.jpg": {
+		"ft": 16384,
+		"iS": 206511,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/kayak-doble-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/single/combo-deluxe-2017.jpg": {
+		"ft": 16384,
+		"iS": 217300,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/single/combo-deluxe-2017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/actividades/sup-04.jpg": {
+		"ft": 16384,
+		"iS": 189890,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/actividades/sup-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/images/backgrounds/bike-deluxe.png": {
+		"ft": 32768,
+		"iS": 75224,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/backgrounds/bike-deluxe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/html-site/assets/images/backgrounds/kayak-simple.png": {
+		"ft": 32768,
+		"iS": 49616,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/backgrounds/kayak-simple.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/html-site/assets/images/logo.png": {
+		"ft": 32768,
+		"iS": 12069,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/html-site/assets/images/teaser-image-baja.jpg": {
+		"ft": 16384,
+		"iS": 459817,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html-site/assets/images/teaser-image-baja.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 90
+		},
+	"/html-site/assets/js/vendor/jquery-3.4.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/html-site/assets/js/vendor/min/jquery-3.4.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/html-site/assets/js/vendor/modernizr-3.7.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/html-site/assets/js/vendor/min/modernizr-3.7.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/html-site/assets/less/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/main.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/modifiers.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/modifiers.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/normalize.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/style.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 0,
+		"oAP": "/html-site/assets/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/type.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/type.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/assets/less/variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/html-site/assets/css/variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/html-site/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/html-site/footer.html",
+		"oF": 0
+		},
+	"/html-site/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/html-site/header.html",
+		"oF": 0
+		},
+	"/html-site/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/index.html",
+		"oF": 0
+		},
+	"/html-site/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/html-site/index.html",
+		"oF": 0
+		},
+	"/html-site/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/html-site/node_modules",
+		"oF": 0
+		},
+	"/html-site/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/html-site/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/html-site/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/html-site/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/html-site/readme.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/readme.html",
+		"oF": 0
+		},
+	"/html-site/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html-site/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/imgd-framework/buddypress.php": {
 		"cB": 0,

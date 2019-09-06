@@ -22,27 +22,34 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'filmarte' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'imgd' ); ?></a>
+	<header class="header_nav">
+      <h1 class="header__logo">
+				<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"
+						title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
+						rel="home">
 
-	<header id="masthead" class="site-header container" role="banner">
-		<div class="row">
-			<div class="brand col-md-4">
-				<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand" 
-					title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" 
-					rel="home">
+						<?php if ( has_custom_logo() ) : ?>
+							<div class="site-logo"><?php the_custom_logo(); ?></div>
+						<?php endif; ?>
 
-					<?php if ( has_custom_logo() ) : ?>
-						<div class="site-logo"><?php the_custom_logo(); ?></div>
-					<?php endif; ?>
-
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
-					alt="<?php esc_attr(bloginfo('name')); ?>"
-					height="80px">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
+						alt="<?php esc_attr(bloginfo('name')); ?>"
+						height="80px">
 				</a>
-			</div>
-			<div class="sidebar-top col-md-8">
+      </h1>
+
+      <input
+        type="checkbox"
+        name="switch-toggle"
+        class="nav-toggle"
+        id="switch"
+      />
+      <nav class="header__main-menu">
+				<?php get_template_part('template-parts/menu','bootstrap-no-brand'); ?>
+      </nav>
+      <nav class="header__idioma">
 				<?php dynamic_sidebar( 'sidebar-top' ); ?>
-			</div>
-		</div>
-		<?php get_template_part('template-parts/menu','bootstrap-no-brand'); ?>
-	</header><!-- #masthead -->
+      </nav>
+      <label for="switch" class="nav-toggle-label"><span></span></label>
+  </header>
