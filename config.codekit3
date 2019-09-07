@@ -1989,14 +1989,6 @@
 		"oAP": "/piklist/parts/meta-boxes/destacados-metabox.php",
 		"oF": 0
 		},
-	"/piklist/parts/settings/theme-settings.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/settings/theme-settings.php",
-		"oF": 0
-		},
 	"/piklist/parts/users/direccion.php": {
 		"cB": 0,
 		"ft": 8192,
