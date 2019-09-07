@@ -4,7 +4,7 @@
 *
 * @package: IMGD Framework
 */
-if (!function_exists(imgd_plugin_setting_pages)){
+if (!function_exists('imgd_plugin_setting_pages')){
     function imgd_plugin_setting_pages($pages)
     {
         $pages[] = array(
