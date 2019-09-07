@@ -10,7 +10,7 @@
 ?>
 <header class="header_nav">
       <h1 class="header__logo">
-				<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"
+				<a href="<?php echo esc_url(home_url('/')); ?>"
 						title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
 						rel="home">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
@@ -33,7 +33,7 @@
 					'container' => 'nav',
 					'container_class' => 'header__main-menu',
 					/*'container_id' => 'bs-example-navbar-collapse-1',*/
-					'menu_class' => 'nav navbar-nav',
+					/*'menu_class' => 'nav navbar-nav',*/
 					'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 					'walker' => new wp_bootstrap_navwalker()
 				)

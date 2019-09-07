@@ -1,8 +1,8 @@
 @import "variables.less";
-@import "normalize.less";
+//@import "normalize.less";
 @import "modifiers.less";
 @import "type.less";
-@import "main.less";
+//@import "main.less";
 @import "mixins.less";
 
 /* Header Section */
@@ -125,8 +125,7 @@ nav {
   }
 
   .header__logo {
-    grid-column: 2 / 3;
-
+    grid-column: 2;
     img {
       max-width: 100%;
     }
@@ -172,6 +171,7 @@ nav {
   background-repeat: no-repeat;
 
   h1 {
+    color: #fff;
     font-size: 5rem;
     text-shadow: 0.1rem 0.2rem 0.5rem black;
   }

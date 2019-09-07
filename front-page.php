@@ -9,19 +9,26 @@
 
 get_header();
 ?>
+<?php
+ while ( have_posts() ) : the_post();
 
+ if (has_post_thumbnail()) {
+	$back_image=get_the_post_thumbnail_url( null, 'full-cropped' );
+ } ?>
+
+
+<div class="hero" style="background-image: url('<?php echo $back_image;?>');">
+    <h1><?php the_title()?></h1>
+</div>
 <?php
 //Contenido que viene desde el plug-in
 include( locate_template( 'template-parts/content-front/contenido-especial.php' ) ); ?>
 
-<div class="grilla">
+<div class="contenedor">
 <?php
- while ( have_posts() ) : the_post();
-
  	the_content();
- endwhile; // End of the loop.
  ?>
 </div>
-
+<?php endwhile; // End of the loop. ?>
 
 <?php get_footer(); ?>
