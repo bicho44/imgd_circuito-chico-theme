@@ -10,7 +10,7 @@
  */
 $class="align-right";
 ?>
-	<div class="wrapfooter">
+	<section class="wrapfooter">
 		<footer id="colophon" class="site-footer" role="contentinfo">
 					<?php if ( is_active_sidebar( 'footer-1-sidebar' ) ) { ?>
 					<?php $class="col-md-8 align-right"; ?>
@@ -30,12 +30,10 @@ $class="align-right";
 							<?php dynamic_sidebar( 'footer-3-sidebar' ); ?>
 					<?php } ?>
 		</footer>
-		<div class="container">
-			<div class="credits row">
+		<div class="footer__copyright">
 				<?php imgd_credits(); ?>
-			</div>
 		</div>
-	</div> <!-- #wrapfooter -->
+	</section> <!-- #wrapfooter -->
 
 <?php wp_footer(); ?>
 </div><!-- end Page -->

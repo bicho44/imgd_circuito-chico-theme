@@ -1,8 +1,9 @@
 @import "../less-html/my-style.less";
 
 //------------- FOOTER ----------//
+
 .wrapfooter {
-  background-color: @footer-background-color;
+  background-color: rgba(51, 51, 51, 90);
   padding: 20px 0;
   border-top: @footer-border-size solid @footer-border-color;
   color: @footer-text-color;
@@ -35,6 +36,28 @@
     color: @gray-light;
     &:hover {
       color: @gray-lighter;
+    }
+  }
+}
+
+/* footer */
+.footer__contenido {
+  column-width: 3rem;
+  column-count: 3;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright {
+  font-size: 1rem;
+  color: @footer-text-color;
+  text-align: center;
+
+  a {
+    color: @footer-text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten(rgb(131, 130, 130), 10);
     }
   }
 }

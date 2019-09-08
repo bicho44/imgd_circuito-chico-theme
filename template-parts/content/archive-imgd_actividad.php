@@ -1,6 +1,6 @@
 <?php
 /**
-* Template part para Mostrar las Actividades
+* Template part para Mostrar la Actividad
 *
 * @link https://codex.wordpress.org/Template_Hierarchy
 *
