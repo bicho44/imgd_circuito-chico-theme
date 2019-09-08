@@ -191,14 +191,15 @@ nav {
   font-size: 1.6rem;
 
   h1 {
-    grid-column: 1 / 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
     margin-bottom: 2rem;
   }
 
   .actividad {
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 1fr auto auto;
+    grid-template-rows: [linea1] 1fr [linea2] 1fr [linea3] auto [linea4] auto [linea5];
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
 
@@ -225,11 +226,12 @@ nav {
       border-radius: 50%;
       clip-path: circle();
       margin: 0;
-      grid-row: 1 / 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
       grid-column: 1;
     }
 
-    h2 {
+    h3 {
       z-index: 800;
       grid-row: 2;
       grid-column: 1;
@@ -254,7 +256,7 @@ nav {
       }
     }
 
-    .caption {
+    .actividad-caption {
       font-size: 1.6rem;
 
       grid-row: 3;
@@ -272,7 +274,8 @@ nav {
     grid-column-gap: 2rem;
 
     h1 {
-      grid-column: 1 / 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
   }
 }
@@ -282,14 +285,15 @@ nav {
     grid-template-columns: repeat(4, 1fr);
 
     h1 {
-      grid-column: 1 / 5;
+      grid-column-start: 1;
+      grid-column-end: 5;
     }
   }
 }
 
 /* Container Data */
 
-.container {
+.contenedor {
   padding: 3rem 0;
   display: grid;
   grid-template-columns: 1em auto 1em;
@@ -298,7 +302,7 @@ nav {
 
   h2,
   p {
-    grid-column: 2 / 3;
+    grid-column: 2;
   }
 
   h2 {
@@ -309,7 +313,7 @@ nav {
   &:before {
     content: " ";
     display: block;
-    background: url("/assets/images/backgrounds/kayak-simple.png") 0 0 no-repeat;
+    /*background: url("/assets/images/backgrounds/kayak-simple.png") 0 0 no-repeat;*/
     transform: rotate(45deg);
     width: 170px;
     height: 600px;
@@ -322,7 +326,7 @@ nav {
   &:after {
     content: " ";
     display: block;
-    background: url("/assets/images/backgrounds/bike-deluxe.png") 0 0 no-repeat;
+    /*background: url("/assets/images/backgrounds/bike-deluxe.png") 0 0 no-repeat;*/
     //transform: rotate(-45deg);
     z-index: -50;
 
@@ -337,7 +341,7 @@ nav {
 }
 
 @media screen and (min-width: 76.5rem) {
-  .container {
+  .contenedor {
     grid-template-columns: 1fr minmax(auto, 76.5rem) 1fr;
   }
 }
@@ -371,6 +375,8 @@ footer {
     }
   }
 }
+
+/* Actividad Single */
 
 .actividad-header {
   display: flex;

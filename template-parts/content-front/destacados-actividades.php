@@ -12,16 +12,19 @@ $args = array('post_type' => array('imgd_actividad'),
 
 $loop = new WP_Query($args);
 
+
+
 if ($loop->have_posts()) {?>
-<section class="imgd-actividades">
+<section class="section-actividades">
       <?php
-        echo "<h1>".post_type_archive_title( "", true )."</h1>";
-        the_archive_description( '<div class="archive-description">', '</div>' );
+        echo the_archive_title( "<h1>", "</h1>");
+        echo the_archive_description( '<div class="archive-description">', '</div>' );
 			?>
       <?php
       $x = 0;
       $destacadosnewsID = array();
 ?>
+
 
 <div class="actividades">
 <?php
@@ -30,12 +33,12 @@ if ($loop->have_posts()) {?>
       $destacadosnewsID[] = get_the_ID();
 ?>
       <article id="post-<?php the_ID(); ?>" class="actividad">
-          <?php 
+          <?php
           get_template_part('template-parts/content-archive', 'desta-news'); ?>
       </article> <!-- End Actividad -->
   <?php $x++; ?>
   <?php endwhile; ?>
-  
+
 </div>
 </section>
 <?php } ?>
