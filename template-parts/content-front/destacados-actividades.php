@@ -17,8 +17,9 @@ $loop = new WP_Query($args);
 if ($loop->have_posts()) {?>
 <section class="section-actividades">
       <?php
-        echo the_archive_title( "<h1>", "</h1>");
-        echo the_archive_description( '<div class="archive-description">', '</div>' );
+      post_type_archive_title();
+        //echo the_archive_title( "<h1>", "</h1>");
+        //echo the_archive_description( '<div class="archive-description">', '</div>' );
 			?>
       <?php
       $x = 0;

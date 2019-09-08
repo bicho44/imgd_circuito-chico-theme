@@ -36,12 +36,12 @@
 		"oT": 1,
 		"q": 90
 		},
-	"/archive-imgd_actividades.php": {
+	"/archive-imgd_actividad.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/archive-imgd_actividades.php",
+		"oAP": "/archive-imgd_actividad.php",
 		"oF": 0
 		},
 	"/archive-imgd_chef.php": {
@@ -288,23 +288,6 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/assets/less-html/mixins.less": {
-		"aP": 0,
-		"bl": 0,
-		"eJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"mS": 1,
-		"oA": 1,
-		"oAP": "/assets/css/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
-		},
 	"/assets/less-html/modifiers.less": {
 		"aP": 0,
 		"bl": 0,
@@ -316,6 +299,40 @@
 		"mS": 1,
 		"oA": 1,
 		"oAP": "/assets/css/modifiers.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/my-mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/my-mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less-html/my-style.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/my-style.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -339,23 +356,6 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/assets/less-html/style.less": {
-		"aP": 0,
-		"bl": 0,
-		"eJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"mS": 1,
-		"oA": 1,
-		"oAP": "/assets/css/style.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
-		},
 	"/assets/less-html/type.less": {
 		"aP": 0,
 		"bl": 0,
@@ -365,7 +365,7 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/assets/css/type.css",
 		"oF": 0,
 		"oS": 0,
@@ -2317,6 +2317,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content/archive-gral.php",
+		"oF": 0
+		},
+	"/template-parts/content/archive-imgd_actividad.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content/archive-imgd_actividad.php",
 		"oF": 0
 		},
 	"/template-parts/content/archive-imgd_chef.php": {

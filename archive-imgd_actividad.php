@@ -9,10 +9,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area container">
-		<div class="row">
-
-		<main id="main" class="site-main col-md-8" role="main">
+<div id="actividades-listado">
 		<?php
 		if ( have_posts() ) : ?>
 
@@ -22,22 +19,23 @@ get_header(); ?>
 					the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-<div class="row">
+
+			<div class="actividades-listado">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
-
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content/archive', 'imgd_programa');
+				get_template_part( 'template-parts/content/archive', 'imgd_actividad');
 
 			endwhile;
-?>
-
+			?>
+			</div>
 </div>
+
 <?php
 if (function_exists("wp_bs_pagination"))
 		{
@@ -53,12 +51,9 @@ if (function_exists("wp_bs_pagination"))
 
 		endif; ?>
 
-		</main><!-- #main -->
 		<?php
-		get_sidebar();
+		//get_sidebar();
 		?>
-	</div><!-- Row -->
-	</div><!-- #primary -->
 
 <?php
 get_footer();

@@ -22,7 +22,6 @@ function get_imgd_child_pages($post_ID)
         'orderby' => 'menu_order'
     );
 
-
     $parent = new WP_Query($args);
 
    return $parent;

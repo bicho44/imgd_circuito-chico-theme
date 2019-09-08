@@ -66,7 +66,7 @@ define('POST_EXCERPT_LENGTH', 55);
 function back_to_top() {
     //echo '<pre>Opcion to top:'. var_dump($opciones_imgd).'</pre>';
     $opciones_imgd = get_option('opciones_imgd');
-    
+
     if ($opciones_imgd['imgd_goto_top']!=0) {
 
         /* guardo la imagen */
@@ -130,19 +130,19 @@ function if_mobile_get_me_this_class($class='', $echo='false'){
  *
  * @package: IMGD Framework
  */
-require get_template_directory() . '/imgd-framework/imgd_fonts.php';
+//require get_template_directory() . '/imgd-framework/imgd_fonts.php';
 require get_template_directory() . '/imgd-framework/imgd_images_sizes.php';
 require get_template_directory() . '/imgd-framework/imgd_gallery.php';
 require get_template_directory() . '/imgd-framework/imgd_nav.php';
-require get_template_directory() . '/imgd-framework/imgd_child_pages.php';
-require get_template_directory() . '/imgd-framework/imgd_comment_bootstrap.php';
+//require get_template_directory() . '/imgd-framework/imgd_child_pages.php';
+//require get_template_directory() . '/imgd-framework/imgd_comment_bootstrap.php';
 require get_template_directory() . '/imgd-framework/imgd_link_navigation.php';
 //require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
 //require get_template_directory() . '/imgd-framework/imgd_widgets.php';
 //require get_template_directory() . '/imgd-framework/imgd_pagination.php';
 //require get_template_directory() . '/inc/imgd-framework/imgd_it_exchange.php';
 //require get_template_directory() . '/imgd-framework/imgd_archive_order.php';
-require get_template_directory() . '/imgd-framework/imgd_settings.php';
+//require get_template_directory() . '/imgd-framework/imgd_settings.php';
 //require get_template_directory() . '/inc/imgd-framework/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 
 require get_template_directory() . '/imgd-framework/imgd_shortcode.php';

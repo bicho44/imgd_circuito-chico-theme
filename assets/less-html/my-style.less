@@ -1,9 +1,9 @@
 @import "variables.less";
 //@import "normalize.less";
 @import "modifiers.less";
-@import "type.less";
+//@import "type.less";
 //@import "main.less";
-@import "mixins.less";
+@import "my-mixins.less";
 
 /* Header Section */
 .header_nav,
@@ -294,14 +294,15 @@ nav {
 /* Container Data */
 
 .contenedor {
-  padding: 3rem 0;
+  /*padding: 3rem 0;*/
   display: grid;
   grid-template-columns: 1em auto 1em;
   //z-index            : 100;
   position: relative;
 
   h2,
-  p {
+  p,
+  blockquote {
     grid-column: 2;
   }
 
@@ -448,11 +449,27 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: stretch;
+
   img {
     width: 200px;
     border: 1px solid #000;
     box-shadow: 1px 1px 0.5rem #000;
     margin-bottom: 1rem;
     margin-left: 1rem;
+  }
+}
+
+/* Actidvidad Listado */
+.actividades-listado {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem auto;
+  justify-content: space-around;
+  align-content: stretch;
+
+  .actividad-archive {
+    //width: 25%;
+    padding: 0 1rem;
+    flex: 1 0 24%;
   }
 }
