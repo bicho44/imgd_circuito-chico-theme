@@ -32,7 +32,23 @@ if (has_post_thumbnail()) {?>
 
     <?php if($link_compra!=""){ ?>
     <div class="botones">
-        <a href="<?php the_permalink(); ?>" class="btn btn--consulta"><?php _e('Consulta por esta actividad','imgd'); ?></a>
+        <a href="#consulta-<?php the_ID(); ?>" class="btn btn--consulta"><?php _e('Consulta por esta actividad','imgd'); ?></a>
         <a href="<?php echo $link_compra; ?>" class="btn btn--vermas"><?php echo get_post_meta(get_the_ID(), 'imgd_texto_link_compra_field', true);?></a>
     </div>
+
+    <!-- Acá va el Modal de la consulta por <?php the_title();?> -->
+    <section class="modal--show" id="consulta-<?php the_ID(); ?>" tabindex="-1"
+        role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+
+    <div class="modal-inner">
+            <header><h3 id="label-fade">Consulta por <?php the_title();?></h2></header>
+        <div class="modal-content">
+        <?php echo do_shortcode('[contact-form-7 id="124" title="consulta"]') ?>
+        </div>
+    </div>
+
+    <a href="#!" class="modal-close" title="Close this modal" data-close="Close"
+        data-dismiss="modal">×</a>
+    </section>
+
 <?php } ?>

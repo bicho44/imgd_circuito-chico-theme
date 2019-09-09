@@ -36,9 +36,9 @@ if ($loop->have_posts()) {?>
       <article id="post-<?php the_ID(); ?>" class="actividad">
           <?php
           get_template_part('template-parts/content-archive', 'desta-news'); ?>
+
       </article> <!-- End Actividad -->
 
-      <!-- Acá va el Modal de la consulta -->
 
   <?php $x++; ?>
   <?php endwhile; ?>
