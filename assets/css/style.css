@@ -5446,6 +5446,7 @@ nav {
   width: 7rem;
 }
 /* Navigation Classes */
+.header__idioma,
 .nav-toggle {
   display: none;
 }
@@ -5546,6 +5547,7 @@ nav ul li a:hover {
     grid-column: 0.75;
   }
   nav.header__idioma {
+    display: inherit;
     justify-content: flex-end;
     grid-column: 0.8;
   }
