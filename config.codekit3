@@ -2701,6 +2701,38 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/languages/en_US-backup-201909091309480.po~": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/languages/en_US-backup-201909091309480.po~",
+		"oF": 0
+		},
+	"/languages/en_US.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/languages/en_US.mo",
+		"oF": 0
+		},
+	"/languages/en_US.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/languages/en_US.po",
+		"oF": 0
+		},
+	"/languages/imgd.pot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/languages/imgd.pot",
+		"oF": 0
+		},
 	"/layouts/content-sidebar.css": {
 		"aP": 1,
 		"bl": 0,
