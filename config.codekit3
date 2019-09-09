@@ -2125,6 +2125,14 @@
 		"oAP": "/sidebar.php",
 		"oF": 0
 		},
+	"/single-imgd_actividad.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single-imgd_actividad.php",
+		"oF": 0
+		},
 	"/single-imgd_chef.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2293,6 +2301,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content-page.php",
+		"oF": 0
+		},
+	"/template-parts/content-page/single-imgd_actividad.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content-page/single-imgd_actividad.php",
 		"oF": 0
 		},
 	"/template-parts/content-search.php": {

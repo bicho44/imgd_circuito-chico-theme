@@ -11,7 +11,8 @@
 $class="align-right";
 ?>
 	<section class="wrapfooter">
-		<footer id="colophon" class="site-footer" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
+			<div class="footer__contenido">
 					<?php if ( is_active_sidebar( 'footer-1-sidebar' ) ) { ?>
 					<?php $class="col-md-8 align-right"; ?>
     					<?php dynamic_sidebar( 'footer-1-sidebar' ); ?>
@@ -29,6 +30,7 @@ $class="align-right";
 					<?php if ( is_active_sidebar( 'footer-3-sidebar' ) ) { ?>
 							<?php dynamic_sidebar( 'footer-3-sidebar' ); ?>
 					<?php } ?>
+			</div>
 		</footer>
 		<div class="footer__copyright">
 				<?php imgd_credits(); ?>
