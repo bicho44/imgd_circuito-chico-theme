@@ -52,7 +52,7 @@ if (has_post_thumbnail()) {?>
          * @todo: Buscar como mandar un mail mas personalizado de consulta por ejemplo el "subject" del mail y
          *        dentro del cuerpo del mismo algo más adaptado a lo que necesita una consulta
         */
-        echo do_shortcode('[contact-form-7 id="124" title="consulta"]') ?>
+        echo do_shortcode('[contact-form-7 id="100" title="consulta"]') ?>
         </div>
     </div>
 
