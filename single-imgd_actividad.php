@@ -42,10 +42,8 @@ foreach ($image_ids as $image) {
 
 	//echo '<pre>'.var_dump($img).'</pre>';
 	//echo $img->ID. '<br />';
-	echo wp_get_attachment_image( $img->ID, 'thumbnail');
-  //$alttext = trim(strip_tags( get_post_meta($image, '_wp_attachment_image_alt', true) ));
 
-
+	echo wp_get_attachment_image( $img->ID, 'news-archive');
 }
 		?>
 		</div>
@@ -64,6 +62,7 @@ foreach ($image_ids as $image) {
 	?>
 <section class="actividad-col2">
   <div class="actividad-itinerario">
+	<h3><?php _e('Recorrido Recomendado', 'imgd'); ?></h3>
 	<?php echo $itinerario; ?>
 	</div>
 </section>

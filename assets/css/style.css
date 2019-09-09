@@ -5739,7 +5739,6 @@ nav ul li a:hover {
 }
 .actividad-imagen {
   position: absolute;
-  width: 100%;
   height: 60vh;
   top: 0;
   z-index: -10;
