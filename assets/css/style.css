@@ -5535,6 +5535,7 @@ nav ul li a:hover {
     all: unset;
     display: flex;
     align-items: center;
+    /* @todo: hacer que el menu ande en el celu */
   }
   nav ul {
     display: flex;
