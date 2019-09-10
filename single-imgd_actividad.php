@@ -34,18 +34,26 @@ get_header(); ?>
 		$image_ids = get_post_meta(get_the_ID(), 'imgd_galeria');
 	//	var_dump($image_ids);
 // loop through images and display them
+$id_images="";
 foreach ($image_ids as $image) {
 // get values of image
 	//echo '<pre>'.var_dump($image).'</pre>';
 
-	$img = get_post($image);
+	//$img = get_post($image);
 
 	//echo '<pre>'.var_dump($img).'</pre>';
 	//echo $img->ID. '<br />';
 
-	echo wp_get_attachment_image( $img->ID, 'news-archive');
+	//echo wp_get_attachment_image( $img->ID, 'news-archive');
+
+	$id_images .= $image->ID.', ';
+
 }
-		?>
+
+// Elimino la última coma
+$id_images=rtrim($id_images,', ');
+?>
+		<?php echo do_shortcode('[gallery ids="$id_images"]'); ?>
 		</div>
 
 	</div>
