@@ -27,36 +27,25 @@ get_header(); ?>
   <div class="actividad-descripcion">
 
 	<?php the_content(); ?>
+
+		<?php
+			$image_ids = get_post_meta(get_the_ID(), 'imgd_galeria');
+			$id_images="";
+	// Imploto el array para hacer un CSV de los id de las imágenes
+			$id_images= implode(', ', $image_ids);
+			// Para Debug
+			//echo $id_images."<br />";
+		?>
+		<?php
+		If ($id_images!=""){?>
 		<div class="actividad-galeria">
-			<?php
-		//$images_galeria = wp_get_attachment_image( , $size:string|array, $icon:boolean, $attr:string|array )
+		<?php	// Muestro la galería
+			echo do_shortcode('[gallery ids="'.$id_images.'" size="thumb-archive"]');
+			?>
+		</div> <!--  end actividad single -->
+		<?php } ?>
 
-		$image_ids = get_post_meta(get_the_ID(), 'imgd_galeria');
-	//	var_dump($image_ids);
-// loop through images and display them
-$id_images="";
-foreach ($image_ids as $image) {
-// get values of image
-	//echo '<pre>'.var_dump($image).'</pre>';
 
-	//$img = get_post($image);
-
-	//echo '<pre>'.var_dump($img).'</pre>';
-	//echo $img->ID. '<br />';
-
-	//echo wp_get_attachment_image( $img->ID, 'news-archive');
-
-	$id_images .= $image->ID.', ';
-
-}
-
-// Elimino la última coma
-$id_images=rtrim($id_images,', ');
-?>
-		<?php echo do_shortcode('[gallery ids="$id_images"]'); ?>
-		</div>
-
-	</div>
 	<?php $aspectos = get_post_meta(get_the_ID(),'imgd_aspectos_importantes_field', true);
 		if($aspectos!=""){
 	?>

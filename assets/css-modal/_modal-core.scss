@@ -18,12 +18,12 @@ html {
 %modal {
 	// Hide initially
 	-webkit-transform: translate(0, 100%);
-	   -moz-transform: translate(0, 100%);
-	     -o-transform: translate(0, 100%);
-	    -ms-transform: translate(0, 100%);
-	        transform: translate(0, 100%);
+	-moz-transform: translate(0, 100%);
+	-o-transform: translate(0, 100%);
+	-ms-transform: translate(0, 100%);
+	transform: translate(0, 100%);
 	-webkit-transform: translate3d(0, 100%, 0); // iOS
-	        transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
 
 	// Maintain a fixed position
 	position: fixed;
@@ -41,10 +41,10 @@ html {
 	&:target,
 	&.is-active {
 		-webkit-transform: translate(0, 0);
-		   -moz-transform: translate(0, 0);
-		     -o-transform: translate(0, 0);
-		    -ms-transform: translate(0, 0);
-		        transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		-o-transform: translate(0, 0);
+		-ms-transform: translate(0, 0);
+		transform: translate(0, 0);
 
 		width: auto;
 		height: auto;
@@ -136,7 +136,7 @@ html {
 
 		// Background as close
 		&:before {
-			content: '';
+			content: "";
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -147,7 +147,7 @@ html {
 
 		// Actual close button on modal
 		&:after {
-			content: '\00d7';
+			content: "\00d7";
 			position: absolute;
 			top: 35px;
 			right: 50%;
@@ -155,7 +155,6 @@ html {
 			margin-right: -($modal-max-width / 2);
 		}
 	}
-
 
 	// When screen isn't as wide as the modal anymore
 	@media screen and (max-width: $modal-max-width + 40) {
@@ -176,15 +175,22 @@ html {
 
 	// For small screens adjust the modal
 	@media screen and (max-width: $modal-small-breakpoint) {
-		-webkit-transform: translate(0, 400px); // Use px to work around Android 2.3 bug
-		-webkit-transform: translate3d(0, 100%, 0); // And overwrite px if 3D transforms are supported
-		        transform: translate3d(0, 100%, 0);
+		-webkit-transform: translate(
+			0,
+			400px
+		); // Use px to work around Android 2.3 bug
+		-webkit-transform: translate3d(
+			0,
+			100%,
+			0
+		); // And overwrite px if 3D transforms are supported
+		transform: translate3d(0, 100%, 0);
 
-		-webkit-transition: opacity 1ms .25s;
-		   -moz-transition: opacity 1ms .25s;
-		     -o-transition: opacity 1ms .25s;
-		    -ms-transition: opacity 1ms .25s;
-		        transition: opacity 1ms .25s;
+		-webkit-transition: opacity 1ms 0.25s;
+		-moz-transition: opacity 1ms 0.25s;
+		-o-transition: opacity 1ms 0.25s;
+		-ms-transition: opacity 1ms 0.25s;
+		transition: opacity 1ms 0.25s;
 
 		display: block;
 		right: auto;
@@ -203,8 +209,8 @@ html {
 
 		.modal-inner {
 			-webkit-box-sizing: border-box;
-			   -moz-box-sizing: border-box;
-			        box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 			top: 0;
 			left: 0;
@@ -218,11 +224,11 @@ html {
 
 			// Prevent text from breaking modal in mobile view
 			-ms-word-break: break-all;
-				word-break: break-all;
-				word-break: break-word; // Non-standard for WebKit
+			word-break: break-all;
+			word-break: break-word; // Non-standard for WebKit
 			-webkit-hyphens: auto;
-			   -moz-hyphens: auto;
-			        hyphens: auto;
+			-moz-hyphens: auto;
+			hyphens: auto;
 		}
 
 		.modal-close {
@@ -230,7 +236,7 @@ html {
 			right: auto;
 
 			&:before {
-				content: '';
+				content: "";
 				position: fixed;
 				top: 0;
 				left: 0;
@@ -247,61 +253,53 @@ html {
 		}
 	}
 
-
 	// For small heights
 	@media screen and (max-height: 46em) and (min-width: $modal-small-breakpoint) {
 		.modal-content {
 			max-height: 340px;
-			max-height: 50vh;
+			max-height: 80vh;
 		}
 	}
-
 
 	@media screen and (max-height: 36em) and (min-width: $modal-small-breakpoint) {
 		.modal-content {
 			max-height: 265px;
-			max-height: 40vh;
+			max-height: 50vh;
 		}
 	}
-
 
 	// Stackable Modals
 	&.is-stacked {
 		-webkit-transform: translate(0, 0) scale(1, 1);
-		   -moz-transform: translate(0, 0) scale(1, 1);
-		     -o-transform: translate(0, 0) scale(1, 1);
-		    -ms-transform: translate(0, 0) scale(1, 1);
-		        transform: translate(0, 0) scale(1, 1);
+		-moz-transform: translate(0, 0) scale(1, 1);
+		-o-transform: translate(0, 0) scale(1, 1);
+		-ms-transform: translate(0, 0) scale(1, 1);
+		transform: translate(0, 0) scale(1, 1);
 
 		opacity: 1;
 
-
 		.modal-inner {
-			-webkit-animation: scaleDown .7s ease both;
-			   -moz-animation: scaleDown .7s ease both;
-			        animation: scaleDown .7s ease both;
+			-webkit-animation: scaleDown 0.7s ease both;
+			-moz-animation: scaleDown 0.7s ease both;
+			animation: scaleDown 0.7s ease both;
 		}
-
 
 		// Hide overlay and close button
 		.modal-close {
 			opacity: 0;
 		}
 
-
 		// On small screens
 		@media screen and (max-width: $modal-small-breakpoint) {
-			-webkit-animation: scaleDown .7s ease both;
-			   -moz-animation: scaleDown .7s ease both;
-			        animation: scaleDown .7s ease both;
-
+			-webkit-animation: scaleDown 0.7s ease both;
+			-moz-animation: scaleDown 0.7s ease both;
+			animation: scaleDown 0.7s ease both;
 
 			.modal-inner {
 				-webkit-animation: none;
-				   -moz-animation: none;
-				        animation: none;
+				-moz-animation: none;
+				animation: none;
 			}
-
 
 			.modal-close {
 				opacity: 1;

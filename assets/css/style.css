@@ -4179,11 +4179,7 @@ nav ul li a:hover {
   align-content: stretch;
 }
 .actividad-galeria img {
-  width: 200px;
-  border: 1px solid #000;
-  box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.644);
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+  max-width: 200px;
 }
 /* Actidvidad Listado */
 .actividades-listado {

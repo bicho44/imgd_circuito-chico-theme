@@ -27,7 +27,7 @@ add_image_size('news-archive', 360, 200, true);
 add_image_size('phones', 480, 250, true);
 */
 
-add_image_size('thumb-archive', 300, 150, true);
+add_image_size('thumb-archive', 250, 100, true);
 add_image_size('stamp', 65, 65, true);
 
 //add_image_size('lead-image', 780, 260, true);
