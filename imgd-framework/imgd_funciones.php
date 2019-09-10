@@ -142,7 +142,7 @@ require get_template_directory() . '/imgd-framework/imgd_link_navigation.php';
 //require get_template_directory() . '/imgd-framework/imgd_pagination.php';
 //require get_template_directory() . '/inc/imgd-framework/imgd_it_exchange.php';
 //require get_template_directory() . '/imgd-framework/imgd_archive_order.php';
-//require get_template_directory() . '/imgd-framework/imgd_settings.php';
+require get_template_directory() . '/imgd-framework/imgd_settings.php';
 //require get_template_directory() . '/inc/imgd-framework/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 
 require get_template_directory() . '/imgd-framework/imgd_shortcode.php';
