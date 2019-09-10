@@ -1,0 +1,287 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IMGD Circuito Chico Adventures\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 13:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: functions.php:134
+msgid "Area de Widgets para la línea de 3 columnas"
+msgstr ""
+
+#: functions.php:124
+msgid "Area de Widgets para un menu de idiomas o Redes Sociale"
+msgstr ""
+
+#: functions.php:114
+msgid "Area para un Aviso Publicitario o un Banner central"
+msgstr ""
+
+#: piklist/parts/users/telefono.php:26
+msgid "Cel"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:23
+msgid "City"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:39
+msgid "Colocar este item en la Home Page en la segunda línea"
+msgstr ""
+
+#: functions.php:144
+msgid "Columna General para las páginas y noticias."
+msgstr ""
+
+#: template-parts/content-archive-desta-news.php:35
+msgid "Consulta por esta actividad"
+msgstr ""
+
+#: piklist/parts/users/telefono.php:13
+msgid "Contactos"
+msgstr ""
+
+#: imgd-framework/imgd_cleanup.php:204
+msgid "Continued"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:55
+msgid "Cuadrado"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:38
+#: piklist/parts/meta-boxes/destacados-metabox.php:46
+msgid "Destacar"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:12
+msgid "Dirección"
+msgstr ""
+
+#. Description of the theme
+msgid "Diseño Web para el sitio de Circuito Chico Adventures"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:29
+msgid "Estado / Provincia"
+msgstr ""
+
+#. Author of the theme
+msgid "Federico Reinoso"
+msgstr ""
+
+#: functions.php:152
+msgid "Footer SideBar 1"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer SideBar 2"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer SideBar 3"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:49
+msgid "Formato del Thumbnail"
+msgstr ""
+
+#: functions.php:112
+msgid "Front Page Sidebar"
+msgstr ""
+
+#: functions.php:132
+msgid "Front Page Sidebar 2 Linea columnas"
+msgstr ""
+
+#. Name of the template
+msgid "Full Size Width Page"
+msgstr ""
+
+#: imgd-framework/imgd_settings.php:18
+msgid "Guardar Cambios"
+msgstr ""
+
+#: imgd-framework/imgd_metaboxes.php:42
+msgid "Home Page"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://imgdigital.com.ar"
+msgstr ""
+
+#. URI of the theme
+msgid "https://imgdigital.com.ar/circuito-chico-adventures"
+msgstr ""
+
+#: piklist/parts/users/foto.php:15
+msgid "Imagen de Usuario"
+msgstr ""
+
+#: piklist/parts/users/foto.php:16
+msgid "Imagen de usuario"
+msgstr ""
+
+#. Name of the template
+msgid "Imagen Grande"
+msgstr ""
+
+#. Name of the theme
+msgid "IMGD Circuito Chico Adventures"
+msgstr ""
+
+#: imgd-framework/imgd_widgets.php:161
+msgid "IMGD: Destacadas"
+msgstr ""
+
+#: imgd-framework/imgd_widgets.php:33
+msgid "IMGD: vCard"
+msgstr ""
+
+#: imgd-framework/imgd_metaboxes.php:46
+msgid "Implica los elementos a publicar en la Home Page"
+msgstr ""
+
+#: piklist/parts/users/foto.php:26
+msgid "Medio al que representa"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:26
+msgid "Mostrar"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:19
+msgid "Mostrar en SlideShow"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:31
+msgid "Muestra el Thumbnail"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:37
+msgid "No"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:45
+msgid "No Destacar"
+msgstr ""
+
+#: piklist/parts/meta-boxes/destacados-metabox.php:25
+msgid "No mostrar"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:36
+msgid "País"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:49
+msgid "Postal Code"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary"
+msgstr ""
+
+#: functions.php:154
+msgid "Primer espacio de Footer."
+msgstr ""
+
+#: single-imgd_actividad.php:65
+msgid "Recorrido Recomendado"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:56
+msgid "Redondo"
+msgstr ""
+
+#: imgd-framework/imgd_metaboxes.php:36
+msgid "Se muestra en el Slide Show del Home Page"
+msgstr ""
+
+#: searchform.php:4 searchform.php:6
+msgid "Search"
+msgstr ""
+
+#: imgd-framework/imgd_funciones.php:188
+msgid "Secundario"
+msgstr ""
+
+#: functions.php:164 functions.php:174
+msgid "Segundo espacio de Footer."
+msgstr ""
+
+#: piklist/parts/users/direccion.php:43
+msgid "Seleccione un País"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:38
+msgid "Si"
+msgstr ""
+
+#: functions.php:122
+msgid "Side Bar Top"
+msgstr ""
+
+#. Name of the template
+msgid "Sidebar a la derecha"
+msgstr ""
+
+#: functions.php:142
+msgid "Sidebar Paginas"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: imgd-framework/imgd_metaboxes.php:32
+msgid "Slide Show"
+msgstr ""
+
+#: imgd-framework/imgd_funciones.php:187
+msgid "Social"
+msgstr ""
+
+#: piklist/parts/users/direccion.php:17
+msgid "Street Address"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:70
+msgid "Tamaño del Thumbnail"
+msgstr ""
+
+#: piklist/parts/users/telefono.php:18
+msgid "Tel"
+msgstr ""
+
+#: imgd-framework/imgd_settings.php:11 imgd-framework/imgd_settings.php:12
+msgid "Theme Options"
+msgstr ""
+
+#: piklist/parts/widgets/userlists-form.php:9
+msgid "Titulo"
+msgstr ""
+
+#: imgd-framework/imgd_widgets.php:158
+msgid ""
+"Use this widget to add \n"
+"                a list of thumbnails of destacadas"
+msgstr ""
+
+#: imgd-framework/imgd_widgets.php:31
+msgid "Use this widget to add a vCard"
+msgstr ""
+
+#: template-parts/content-front/columnas.php:33
+msgid "Últimas Noticias"
+msgstr ""
