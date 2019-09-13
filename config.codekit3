@@ -1410,6 +1410,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/assets/less/forms.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/forms.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/assets/less/it_exchange.less": {
 		"aP": 0,
 		"bl": 0,
