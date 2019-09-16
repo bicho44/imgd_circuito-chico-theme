@@ -16,37 +16,37 @@ $loop = new WP_Query($args);
 
 if ($loop->have_posts()) {?>
 <section class="section-actividades">
-      <?php
-      post_type_archive_title();
+  <h3><?php
+      _e('Nuestras Actividades', 'imgd');
         //echo the_archive_title( "<h1>", "</h1>");
         //echo the_archive_description( '<div class="archive-description">', '</div>' );
-			?>
-      <?php
+            ?>
+  </h3>
+  <?php
       $x = 0;
       $destacadosnewsID = array();
 ?>
 
 
-<div class="actividades">
-<?php
+  <div class="actividades">
+    <?php
     while ($loop->have_posts()) : $loop->the_post();
 
       $destacadosnewsID[] = get_the_ID();
 ?>
-      <article id="post-<?php the_ID(); ?>" class="actividad">
-          <?php
+    <article id="post-<?php the_ID(); ?>" class="actividad">
+      <?php
           get_template_part('template-parts/content-archive', 'desta-news'); ?>
 
-      </article> <!-- End Actividad -->
+    </article> <!-- End Actividad -->
 
 
-  <?php $x++; ?>
-  <?php endwhile; ?>
+    <?php $x++; ?>
+    <?php endwhile; ?>
 
-</div>
+  </div>
 </section>
 <?php } ?>
 
 <?php wp_reset_query();
 //var_dump($destacadosID);
-?>

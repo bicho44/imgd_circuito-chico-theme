@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IMGD Circuito Chico Adventures\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 21:38+0000\n"
-"PO-Revision-Date: 2019-09-16 21:39+0000\n"
+"POT-Creation-Date: 2019-09-09 18:25+0000\n"
+"PO-Revision-Date: 2019-09-16 21:27+0000\n"
 "Last-Translator: bicho44 <admin@imgdigital.com.ar>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Footer SideBar 3"
 msgstr "Footer SideBar 3"
 
-#: header.php:29
+#: header.php:25
 msgid "Skip to content"
 msgstr "Skip to content"
 
@@ -86,7 +86,7 @@ msgstr "Big Image"
 msgid "Search"
 msgstr "Search"
 
-#: single-imgd_actividad.php:63
+#: single-imgd_actividad.php:65
 msgid "Recorrido Recomendado"
 msgstr "Recomended Itinerary"
 
@@ -98,11 +98,11 @@ msgstr "SideBar to the right"
 msgid "Continued"
 msgstr "Continued"
 
-#: imgd-framework/imgd_funciones.php:189
+#: imgd-framework/imgd_funciones.php:187
 msgid "Social"
 msgstr "Social"
 
-#: imgd-framework/imgd_funciones.php:190
+#: imgd-framework/imgd_funciones.php:188
 msgid "Secundario"
 msgstr "Secondary"
 
@@ -157,10 +157,6 @@ msgstr "Ask about this activitie"
 #: template-parts/content-front/columnas.php:33
 msgid "Últimas Noticias"
 msgstr "Last News"
-
-#: template-parts/content-front/destacados-actividades.php:20
-msgid "Nuestras Actividades"
-msgstr "Our activities"
 
 #: piklist/parts/meta-boxes/destacados-metabox.php:19
 msgid "Mostrar en SlideShow"
@@ -290,3 +286,6 @@ msgstr "Federico Reinoso"
 #. Author URI of the theme
 msgid "http://imgdigital.com.ar"
 msgstr "http://imgdigital.com.ar"
+
+msgid "Precio de la Actividad"
+msgstr "Activity Price"

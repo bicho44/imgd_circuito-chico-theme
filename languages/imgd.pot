@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IMGD Circuito Chico Adventures\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 18:25+0000\n"
+"POT-Creation-Date: 2019-09-16 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Footer SideBar 3"
 msgstr ""
 
-#: header.php:25
+#: header.php:29
 msgid "Skip to content"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: single-imgd_actividad.php:65
+#: single-imgd_actividad.php:63
 msgid "Recorrido Recomendado"
 msgstr ""
 
@@ -99,11 +99,11 @@ msgstr ""
 msgid "Continued"
 msgstr ""
 
-#: imgd-framework/imgd_funciones.php:187
+#: imgd-framework/imgd_funciones.php:189
 msgid "Social"
 msgstr ""
 
-#: imgd-framework/imgd_funciones.php:188
+#: imgd-framework/imgd_funciones.php:190
 msgid "Secundario"
 msgstr ""
 
@@ -155,6 +155,10 @@ msgstr ""
 
 #: template-parts/content-front/columnas.php:33
 msgid "Últimas Noticias"
+msgstr ""
+
+#: template-parts/content-front/destacados-actividades.php:20
+msgid "Nuestras Actividades"
 msgstr ""
 
 #: piklist/parts/meta-boxes/destacados-metabox.php:19
@@ -284,7 +288,4 @@ msgstr ""
 
 #. Author URI of the theme
 msgid "http://imgdigital.com.ar"
-msgstr ""
-
-msgid "Precio de la Actividad"
 msgstr ""

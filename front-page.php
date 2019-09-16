@@ -4,7 +4,7 @@
 *
 * @link https://codex.wordpress.org/Template_Hierarchy
 *
-* @package Filmarte
+* @package Circuito Chico Adventures
 */
 
 get_header();
@@ -18,7 +18,7 @@ get_header();
 
 <div class="hero"
 	style="background-image: url('<?php echo $back_image;?>');">
-	<h1><?php the_title();?>
+	<h1><?php bloginfo('name');?>
 	</h1>
 	<h2><?php bloginfo('description'); ?>
 	</h2>
