@@ -31,6 +31,6 @@ $optioncarousel = 'bootstrap';
 //echo '<h1>Carrousel</H1>';
 
 if ($loop->have_posts()) {
-  //get_template_part('template-parts/carrousel', $optioncarousel);
-  include( locate_template( 'template-parts/carrousel-'.$optioncarousel.'.php' ) );
+    //get_template_part('template-parts/carrousel', $optioncarousel);
+    include(locate_template('template-parts/carrousel-'.$optioncarousel.'.php'));
 }
