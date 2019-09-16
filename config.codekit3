@@ -860,6 +860,24 @@
 		"oAP": "/assets/css/admin.css.map",
 		"oF": 0
 		},
+	"/assets/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/css/style.css.map",
+		"oF": 0
+		},
 	"/assets/fonts/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -2700,12 +2718,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/languages/en_US-backup-201909091309480.po~": {
+	"/languages/en_US-backup-201909162139270.po~": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/languages/en_US-backup-201909091309480.po~",
+		"oAP": "/languages/en_US-backup-201909162139270.po~",
 		"oF": 0
 		},
 	"/languages/en_US.mo": {
@@ -2724,12 +2742,12 @@
 		"oAP": "/languages/en_US.po",
 		"oF": 0
 		},
-	"/languages/imgd-backup-201909091825530.pot~": {
+	"/languages/imgd-backup-201909162138590.pot~": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/languages/imgd-backup-201909091825530.pot~",
+		"oAP": "/languages/imgd-backup-201909162138590.pot~",
 		"oF": 0
 		},
 	"/languages/imgd.pot": {
@@ -2739,26 +2757,6 @@
 		"oA": 0,
 		"oAP": "/languages/imgd.pot",
 		"oF": 0
-		},
-	"/layouts/content-sidebar.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/layouts/content-sidebar-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/layouts/sidebar-content.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/layouts/sidebar-content-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/page-imagen-grande.php": {
 		"cB": 0,

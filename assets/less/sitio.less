@@ -3,12 +3,12 @@
 //------------- FOOTER ----------//
 
 .wrapfooter {
-  background-color: rgba(51, 51, 51, 90);
+  background-color: @footer-background-color;
   padding: 20px 0;
   border-top: @footer-border-size solid @footer-border-color;
-  color: @footer-text-color;
+  color: lighten(@footer-background-color, 20);
   margin-top: @footer-margin-top;
-  min-height: 30vh;
+  min-height: 40vh;
 
   h2 {
     color: darken(@footer-text-color, 50);
@@ -47,15 +47,15 @@
 
 .footer__copyright {
   font-size: 1rem;
-  color: @footer-text-color;
+  color: lighten(@footer-text-color, 20);
   text-align: center;
 
   a {
-    color: @footer-text-color;
+    color: lighten(@footer-text-color, 20);
     text-decoration: none;
 
     &:hover {
-      color: lighten(rgb(131, 130, 130), 10);
+      color: lighten(@footer-text-color, 40);
     }
   }
 }
@@ -72,6 +72,7 @@
   // width: 50%;
   //border-color: fade(darken(@brand-primary, 30), 20%);
   z-index: 1000;
+  color: @footer-text-color;
   &:hover {
     color: @white;
     //background-color: fade(darken(@brand-primary, 25), 70%);
