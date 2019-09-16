@@ -4,7 +4,7 @@
 
 .wrapfooter {
   background-color: @footer-background-color;
-  padding: 20px 0;
+  padding: 1rem 5rem;
   border-top: @footer-border-size solid @footer-border-color;
   color: lighten(@footer-background-color, 20);
   margin-top: @footer-margin-top;
@@ -43,6 +43,8 @@
 /* footer */
 .footer__contenido {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .footer__copyright {
@@ -68,7 +70,7 @@
   display: none;
   outline: none;
   right: 15px;
-  bottom: 35px;
+  bottom: 15px;
   // width: 50%;
   //border-color: fade(darken(@brand-primary, 30), 20%);
   z-index: 1000;
@@ -78,7 +80,7 @@
     //background-color: fade(darken(@brand-primary, 25), 70%);
   }
   @media (min-width: @screen-md-min) {
-    width: 100%;
+    //width: 100%;
     right: 40px;
     bottom: 40px;
   }

@@ -4954,7 +4954,7 @@ html {
 }
 .wrapfooter {
   background-color: #333333;
-  padding: 20px 0;
+  padding: 1rem 5rem;
   border-top: 2px solid #777777;
   color: #666666;
   margin-top: 20px;
@@ -4988,6 +4988,8 @@ html {
 /* footer */
 .footer__contenido {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 .footer__copyright {
   font-size: 1rem;
@@ -5006,7 +5008,7 @@ html {
   display: none;
   outline: none;
   right: 15px;
-  bottom: 35px;
+  bottom: 15px;
   z-index: 1000;
   color: #838282;
 }
@@ -5015,7 +5017,6 @@ html {
 }
 @media (min-width: 992px) {
   #totop {
-    width: 100%;
     right: 40px;
     bottom: 40px;
   }

@@ -74,13 +74,12 @@ function back_to_top()
 
         /* guardo la imagen */
         $imageid = $opciones_imgd['imgd_image_to_top'][0];
-        // echo '<pre>'.var_dump ($imageid).'</pre>';
+        //echo '<pre>'.var_dump($imageid).'</pre>';
 
         if ($imageid == null) {
-            $contenido = "Back to Top ˆ";
+            $contenido = __("Back to Top ˆ", "imgd");
         } else {
-
-        //$image_attach =  get_attached_file($imageid);
+            //$image_attach =  get_attached_file($imageid);
             $contenido = wp_get_attachment_image($imageid, array('80', '80'));
             //echo '<pre>IMAGE ATTACH:'. var_dump($image_attach).'</pre>';
         //$contenido = '<img src="'.   $image_attach.'" width="80px" >';
