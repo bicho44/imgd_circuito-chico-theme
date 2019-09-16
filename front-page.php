@@ -18,8 +18,10 @@ get_header();
 
 <div class="hero"
 	style="background-image: url('<?php echo $back_image;?>');">
-	<h1><?php the_title()?>
+	<h1><?php the_title();?>
 	</h1>
+	<h2><?php bloginfo('description'); ?>
+	</h2>
 </div>
 <?php
 //Contenido que viene desde el plug-in
