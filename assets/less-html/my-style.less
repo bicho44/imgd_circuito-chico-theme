@@ -451,7 +451,8 @@ nav {
 .wpcf7 {
   background-color: #f7f7f7;
 }
-.wpcf7 input {
+.wpcf7 input,
+.wpcf7 textarea {
   border: 1px solid #e7ecee;
 }
 
@@ -536,8 +537,8 @@ html {
   top: 60px;
   left: 50%;
   z-index: 20;
-  margin-left: -325px;
-  width: 650px;
+  margin-left: -40vw;
+  width: 80vw;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
@@ -612,9 +613,9 @@ html {
   top: 35px;
   right: 50%;
   z-index: 20;
-  margin-right: -325px;
+  margin-right: -40vw;
 }
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 120vw) {
   .modal--fade .modal-inner,
   .modal--show .modal-inner {
     width: auto;
@@ -703,14 +704,14 @@ html {
   .modal--fade .modal-content,
   .modal--show .modal-content {
     max-height: 340px;
-    max-height: 50vh;
+    max-height: 80vh;
   }
 }
 @media screen and (max-height: 36em) and (min-width: 30em) {
   .modal--fade .modal-content,
   .modal--show .modal-content {
     max-height: 265px;
-    max-height: 40vh;
+    max-height: 50vh;
   }
 }
 .is-stacked.modal--fade,
