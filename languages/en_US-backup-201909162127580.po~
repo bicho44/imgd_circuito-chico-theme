@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: IMGD Circuito Chico Adventures\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 18:25+0000\n"
-"PO-Revision-Date: 2019-09-16 21:27+0000\n"
+"PO-Revision-Date: 2019-09-16 21:26+0000\n"
 "Last-Translator: bicho44 <admin@imgdigital.com.ar>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -132,7 +132,7 @@ msgstr "Save Changes"
 
 #: imgd-framework/imgd_widgets.php:31
 msgid "Use this widget to add a vCard"
-msgstr "Use this widget to add a vCard"
+msgstr ""
 
 #: imgd-framework/imgd_widgets.php:33
 msgid "IMGD: vCard"
@@ -143,8 +143,6 @@ msgid ""
 "Use this widget to add \n"
 "                a list of thumbnails of destacadas"
 msgstr ""
-"Use this widget to add \n"
-"                a list of thumbnails of destacadas"
 
 #: imgd-framework/imgd_widgets.php:161
 msgid "IMGD: Destacadas"
@@ -265,7 +263,7 @@ msgstr "Circle"
 
 #: piklist/parts/widgets/userlists-form.php:70
 msgid "Tamaño del Thumbnail"
-msgstr "Thumbnail Size"
+msgstr ""
 
 #. Name of the theme
 msgid "IMGD Circuito Chico Adventures"
