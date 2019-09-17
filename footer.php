@@ -15,16 +15,16 @@ $class="align-right";
 	<footer id="colophon" role="contentinfo">
 		<div class="footer__contenido">
 			<?php if (is_active_sidebar('footer-1-sidebar')) { ?>
-			<?php $class="col-md-8 align-right"; ?>
+			<?php //$class="col-md-8 align-right";?>
 			<?php dynamic_sidebar('footer-1-sidebar'); ?>
 			<?php } ?>
 
 			<?php if (is_active_sidebar('footer-2-sidebar')) { ?>
-			<?php $class="col-md-4 align-right"; ?>
+			<?php //$class="col-md-4 align-right";?>
 			<?php dynamic_sidebar('footer-2-sidebar'); ?>
 			<?php } ?>
 
-			<div class=<?php echo $class;?>>
+			<div class="<?php //echo $class;?>">
 				<!-- Menu Social -->
 				<?php get_template_part('template-parts/menu', 'social'); ?>
 

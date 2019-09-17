@@ -40,7 +40,7 @@ function load_external_jQuery()
 function imgdigital_scripts()
 {
     //Modernizer
-    wp_register_script('img_modern', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.6.2.min.js', false, null, false);
+    //wp_register_script('img_modern', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.6.2.min.js', false, null, false);
 
     // Scripts from Bootstrap
     wp_enqueue_script('scripts-ck', get_template_directory_uri() . '/assets/js/script-ck.js', array( 'jquery' ), null, true);
