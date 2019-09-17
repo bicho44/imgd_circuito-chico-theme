@@ -28,6 +28,7 @@ get_header();
 include(locate_template('template-parts/content-front/contenido-especial.php')); ?>
 
 <div class="contenedor">
+	<?php the_title('<h1>', '</h1>');?>
 	<?php
     the_content();
  ?>

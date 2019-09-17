@@ -5,16 +5,15 @@
 **/
 
 .btn(@color-text: #FFF; @color-back: #777; @radius: 2rem) {
-    display         : inline-block;
-    padding         : 1rem;
-    color           : @color-text;
-    background-color: @color-back;
-    font-family     : Raleway;
-    border-radius   : @radius;
-    text-decoration : none;
+  display: inline-block;
+  padding: 1rem;
+  color: @color-text;
+  background-color: @color-back;
+  border-radius: @radius;
+  text-decoration: none;
 
-    &:hover {
-        color           : @color-text;
-        background-color: darken(@color-back, 20);
-    }
+  &:hover {
+    color: @color-text;
+    background-color: darken(@color-back, 20);
+  }
 }

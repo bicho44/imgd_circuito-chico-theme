@@ -860,6 +860,16 @@
 		"oAP": "/assets/css/admin.css.map",
 		"oF": 0
 		},
+	"/assets/css/style-full.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/style-full-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1190,7 +1200,7 @@
 		"sU": 0
 		},
 	"/assets/less/bootstrap.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
@@ -1201,7 +1211,7 @@
 		"oA": 0,
 		"oAP": "/assets/css/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 1,
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
