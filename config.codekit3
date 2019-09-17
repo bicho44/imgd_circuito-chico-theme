@@ -974,25 +974,14 @@
 		"opt": 1,
 		"q": 90
 		},
-	"/assets/js/script-ck.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/script-ck-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/assets/js/script.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/script-min.js",
-		"oF": 0,
+		"oAP": "/assets/js/script-ck.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},

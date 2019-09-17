@@ -135,7 +135,7 @@ function if_mobile_get_me_this_class($class='', $echo='false')
  */
 //require get_template_directory() . '/imgd-framework/imgd_fonts.php';
 require get_template_directory() . '/imgd-framework/imgd_images_sizes.php';
-require get_template_directory() . '/imgd-framework/imgd_gallery.php';
+//require get_template_directory() . '/imgd-framework/imgd_gallery.php';
 require get_template_directory() . '/imgd-framework/imgd_nav.php';
 //require get_template_directory() . '/imgd-framework/imgd_child_pages.php';
 //require get_template_directory() . '/imgd-framework/imgd_comment_bootstrap.php';
