@@ -160,10 +160,10 @@ nav {
 }
 
 /* Hero Section */
-.hero {
+.hero,
+.hero-page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   padding: 2rem 0;
   color: #fff;
   justify-content: center;
@@ -191,14 +191,22 @@ nav {
     text-shadow: 0.1rem 0.2rem 0.5rem black;
   }
 }
-
+.hero {
+  height: 100vh;
+}
+.hero-page {
+  height: 40vh;
+  background-color: fade(@secondary, 20%);
+}
 /* Actividades */
-
+.section-actividades {
+  margin: 2rem 1.5rem;
+  //background-color: ;
+}
 .actividades {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 1rem 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 
   h1 {
     grid-column-start: 1;
@@ -305,6 +313,7 @@ nav {
 
 .contenedor {
   /*padding: 3rem 0;*/
+
   display: grid;
   grid-template-columns: 1em auto 1em;
   //z-index            : 100;
@@ -355,7 +364,7 @@ nav {
 @media screen and (min-width: 76.5rem) {
   .contenedor {
     grid-template-columns: 1fr minmax(auto, 76.5rem) 1fr;
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 

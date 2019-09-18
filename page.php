@@ -14,25 +14,52 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area container">
-	<div class="row">
-		<main id="main" class="site-main col-md-8" role="main">
-			<?php
-                while (have_posts()) : the_post();
+<?php
+$back_image="";
 
-                    get_template_part('template-parts/content', 'page');
+    while (have_posts()) : the_post();
 
-                    // If comments are open or we have at least one comment, load up the comment template.
-                    if (comments_open() || get_comments_number()) :
-                        comments_template();
-                    endif;
+    if (has_post_thumbnail()) {
+        $back_image=get_the_post_thumbnail_url(null, 'full-cropped');
+        $back_image = 'style="background-image: url(\"'.$back_image.'\");';
+    }
 
-                endwhile; // End of the loop.
-                ?>
-		</main><!-- #main -->
-		<?php get_sidebar(); ?>
-	</div>
-</div><!-- #primary -->
+    ?>
+
+<div class="hero-page" <?php echo $back_image;?> >
+    <h1><?php the_title();?>
+    </h1>
+</div>
+
+<div class="page-area">
+
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <?php
+            the_content();
+
+            echo wpdocs_custom_taxonomies_terms_links();
+
+
+            wp_link_pages(array(
+                'before' => '<div class="page-links">' . esc_html__('Pages:', 'turismointer'),
+                'after'  => '</div>',
+            ));
+        ?>
+
+        <?php
+        // If comments are open or we have at least one comment, load up the comment template.
+        if (comments_open() || get_comments_number()) :
+            comments_template();
+        endif;
+
+        ?>
+    </article>
+
+    <?php endwhile; // End of the loop?>
+
+    <?php get_sidebar(); ?>
+
+</div><!-- .entry-content -->
 
 <?php
 get_footer();

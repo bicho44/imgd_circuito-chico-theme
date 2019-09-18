@@ -1,7 +1,11 @@
 /* Variables */
-@background-nav : rgba(116, 11, 11, 0.8);
+@primary: rgb(116, 11, 11);
+@secondary: rgb(231, 119, 14);
+
+@background-nav : fade(@primary, 80%);
 @text-nav : #fff;
-@back-btn-color-consulta: rgb(231, 119, 14);
+
+@back-btn-color-consulta: @secondary;
 @back-btn-color-vermas : spin(@background-nav, 180); //rgb(17, 134, 115);
 @footer-text-color : rgb(131, 130, 130);
 
