@@ -932,7 +932,7 @@
 		},
 	"/assets/images/favicon.png": {
 		"ft": 32768,
-		"iS": 2893,
+		"iS": 1765,
 		"oA": 0,
 		"oAP": "/assets/images/favicon.png",
 		"oF": 0,
@@ -954,12 +954,12 @@
 		},
 	"/assets/images/logo.png": {
 		"ft": 32768,
-		"iS": 11154,
+		"iS": 1765,
 		"oA": 0,
 		"oAP": "/assets/images/logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 90
 		},
