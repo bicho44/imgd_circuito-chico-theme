@@ -932,7 +932,7 @@
 		},
 	"/assets/images/favicon.png": {
 		"ft": 32768,
-		"iS": 3905,
+		"iS": 2893,
 		"oA": 0,
 		"oAP": "/assets/images/favicon.png",
 		"oF": 0,
@@ -941,9 +941,20 @@
 		"oT": 1,
 		"q": 90
 		},
-	"/assets/images/logo.png": {
+	"/assets/images/logo-150x150.png": {
 		"ft": 32768,
 		"iS": 33857,
+		"oA": 0,
+		"oAP": "/assets/images/logo-150x150.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/logo.png": {
+		"ft": 32768,
+		"iS": 11154,
 		"oA": 0,
 		"oAP": "/assets/images/logo.png",
 		"oF": 0,
