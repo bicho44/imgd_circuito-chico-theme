@@ -21,12 +21,13 @@ $back_image="";
 
     if (has_post_thumbnail()) {
         $back_image=get_the_post_thumbnail_url(null, 'full-cropped');
-        $back_image = 'style="background-image: url(\"'.$back_image.'\");';
+        //$back_image = ''.$back_image.'\");';
     }
 
     ?>
 
-<div class="hero-page" <?php echo $back_image;?> >
+<div class="hero-page"
+    style="background-image: url('<?php echo $back_image;?>')" ;>
     <h1><?php the_title();?>
     </h1>
 </div>
