@@ -3936,7 +3936,8 @@ nav ul li a:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 .actividad-titulo {
-  text-shadow: 1px 1px 5px #000;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 .actividad-imagen {
   position: absolute;
