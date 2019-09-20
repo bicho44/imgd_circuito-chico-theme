@@ -15,9 +15,10 @@
 get_header(); ?>
 
 <header class="actividad-header">
+	<?php the_title('<h1 class="actividad-titulo">', '</h1>'); ?>
 	<?php the_post_thumbnail('full-cropped', ['class' => 'actividad-imagen']);?>
 	<!-- <img src="/assets/images/actividades/single/combo-deluxe-2017.jpg" alt="" class="actividad-imagen" /> -->
-	<?php the_title('<h1 class="actividad-titulo">', '</h1>'); ?>
+
 </header>
 
 <?php
