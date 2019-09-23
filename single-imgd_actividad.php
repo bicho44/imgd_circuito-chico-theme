@@ -43,17 +43,17 @@ get_header(); ?>
 			<?php	// Muestro la galería
             echo do_shortcode('[gallery ids="'.$id_images.'" size="thumb-archive"]');
             ?>
-		</div> <!--  end actividad single -->
+		</div> <!--  end actividad galeria -->
 		<?php } ?>
 
-
-		<?php $aspectos = get_post_meta(get_the_ID(), 'imgd_aspectos_importantes_field', true);
+	</div><!-- End Actividad Descripcion -->
+	<?php $aspectos = get_post_meta(get_the_ID(), 'imgd_aspectos_importantes_field', true);
         if ($aspectos!="") {
             ?>
-		<div class="actividad-aspectos-importantes">
-			<?php echo $aspectos; ?>
-		</div>
-		<?php
+	<div class="actividad-aspectos-importantes">
+		<?php echo $aspectos; ?>
+	</div>
+	<?php
         } ?>
 </section>
 <?php $itinerario = get_post_meta(get_the_ID(), 'imgd_itinerario_field', true);
