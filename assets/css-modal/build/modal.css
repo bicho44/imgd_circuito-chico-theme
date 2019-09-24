@@ -60,8 +60,8 @@ html {
     top: 60px;
     left: 50%;
     z-index: 20;
-    margin-left: -40vw;
-    width: 80vw;
+    margin-left: -35vw;
+    width: 70vw;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch; }
     .modal--fade .modal-inner > img, .modal--show .modal-inner > img,
@@ -116,8 +116,8 @@ html {
       top: 35px;
       right: 50%;
       z-index: 20;
-      margin-right: -40vw; }
-  @media screen and (max-width: 120vw) {
+      margin-right: -35vw; }
+  @media screen and (max-width: 110vw) {
     .modal--fade .modal-inner, .modal--show .modal-inner {
       width: auto;
       left: 20px;
@@ -250,15 +250,15 @@ html {
     transition: max-width 0.25s linear, margin-left 0.125s linear; }
   .modal--fade header, .modal--show header {
     border-bottom: 1px solid #ddd;
-    padding: 0 1.2em; }
+    padding: 0 1.2rem; }
     .modal--fade header > h2, .modal--show header > h2 {
-      margin: 0.5em 0; }
+      margin: 0.5rem 0; }
   .modal--fade .modal-content, .modal--show .modal-content {
     border-bottom: 1px solid #ddd;
-    padding: 15px 1.2em; }
+    padding: 2rem 2.2rem; }
   .modal--fade footer, .modal--show footer {
     border-top: 1px solid white;
-    padding: 0 1.2em 18px;
+    padding: 0 1.2rem 1.2rem;
     background: #f0f0f0;
     border-radius: 2px; }
   .modal--fade .modal-close, .modal--show .modal-close {
@@ -266,11 +266,11 @@ html {
     .modal--fade .modal-close:before, .modal--show .modal-close:before {
       background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAEUlEQVQoz2NgeEYAjioYSQoAzOTmAXhPhyoAAAAASUVORK5CYII="); }
     .modal--fade .modal-close:after, .modal--show .modal-close:after {
-      content: '\00d7';
+      content: "\00d7";
       background: #fff;
       border-radius: 2px;
-      padding: 2px 8px;
-      font-size: 1.2em;
+      padding: 0.5rem 0.8rem;
+      font-size: 1.2rem;
       text-decoration: none;
       text-indent: 0; }
   @media screen and (max-width: 30em) {
@@ -280,15 +280,15 @@ html {
       -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); }
     .modal--fade .modal-inner, .modal--show .modal-inner {
-      padding-top: 3em;
+      padding-top: 3rem;
       -webkit-box-shadow: none;
       box-shadow: none; }
     .modal--fade .modal-close, .modal--show .modal-close {
       text-decoration: none; }
       .modal--fade .modal-close:after, .modal--show .modal-close:after {
         content: attr(data-close);
-        font-size: 1em;
-        padding: 0.5em 1em; } }
+        font-size: 1rem;
+        padding: 0.5rem 1rem; } }
 
 /*
  * Plain Screen Theme Styles
