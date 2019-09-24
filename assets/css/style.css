@@ -1,4 +1,4 @@
-/** Cache Buster v1.3 **/
+/** Cache Buster v1.5 **/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -4410,6 +4410,18 @@ html {
     font-size: 1em;
     padding: 0.5em 1em;
   }
+}
+.wpcf7-mail-sent-ok {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: green;
+}
+div.wpcf7 .ajax-loader {
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 .wrapfooter {
   background-color: #333333;

@@ -51,6 +51,9 @@ get_header(); ?>
         if ($aspectos!="") {
             ?>
 	<div class="actividad-aspectos-importantes">
+		<h3>
+			<?php _e('Aspectos a tener en Cuenta', 'imgd'); ?>
+		</h3>
 		<?php echo $aspectos; ?>
 	</div>
 	<?php
