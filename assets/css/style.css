@@ -4423,6 +4423,13 @@ div.wpcf7 .ajax-loader {
   top: 10px;
   right: 20px;
 }
+.wpcf7-submit {
+  background: green;
+  color: white;
+}
+.wpcf7-submit:hover {
+  background: #001a00;
+}
 .wrapfooter {
   background-color: #333333;
   padding: 1rem 5rem;
