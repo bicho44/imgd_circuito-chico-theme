@@ -1,33 +1,34 @@
 <?php
+/*
+Title: Listado de Actividades
+Description: Muestra eun listado de las actividades usando random par el sidebar
+*/
 
 piklist(
-    'field', 
+    'field',
     array(
         'type' => 'text'
-        ,'field' => 'imgd_asoc_widget_title'
+        ,'field' => 'imgd_actividades_widget_title'
         ,'value' => ''
-        ,'label' => __('Titulo', 'imgd')
+        ,'label' => __('Titulo Descriptivo', 'imgd')
     )
 );
-
+piklist(
+    'field',
+    array(
+        'type' => 'number'
+        ,'field' => 'imgd_actividades_widget_cant'
+        ,'value' => 4
+        ,'label' => __('Cantidad de actividades a mostrar', 'imgd')
+    )
+);
 //piklist::pre(get_editable_roles());
 
-piklist('field', array(
-'type' => 'select'
-,'field' => 'imgd_asoc_widget_roles'
-,'choices' =>  piklist(
-              get_editable_roles()
-               ,array(
-                 'name','name'
-               )
-)
-));
-
-piklist (
+piklist(
     'field',
     array(
         'type' => 'radio',
-        'field' => 'imgd_asoc_widget_thumb',
+        'field' => 'imgd_actividades_widget_thumb',
         'label' => __('Muestra el Thumbnail', 'imgd'),
         'value' => 0,
         'attributes' => array(
@@ -41,14 +42,14 @@ piklist (
     )
 );
 
-piklist (
+piklist(
     'field',
     array(
         'type' => 'radio',
-        'field' => 'imgd_asoc_widget_thumb_format',
+        'field' => 'imgd_actividades_widget_thumb_format',
         'label' => __('Formato del Thumbnail', 'imgd'),
         'value' =>  'img-square' ,
-         'attributes' => array (
+         'attributes' => array(
             'class' => 'radio'
         ),
         'choices' => array(
@@ -57,22 +58,24 @@ piklist (
         ),
         'conditions' => array(
                     array(
-                        'field' => 'imgd_asoc_widget_thumb'
+                        'field' => 'imgd_actividades_widget_thumb'
                         , 'value' => 1
                     )
                 )
     )
 );
 
-piklist('field', array(
+piklist(
+    'field',
+    array(
     'type' => 'select'
-    ,'field' => 'imgd_asoc_widget_thumb_sizes'
+    ,'field' => 'imgd_actividades_widget_thumb_sizes'
     , 'label' => __('Tamaño del Thumbnail', 'imgd')
     ,'choices' =>  get_intermediate_image_names()
     ,'value' => 'stamp'
     ,'conditions' => array(
                         array(
-                            'field' => 'imgd_asoc_widget_thumb'
+                            'field' => 'imgd_actividades_widget_thumb'
                             , 'value' => 1
                         )
         )
@@ -87,4 +90,3 @@ piklist('field', array(
     <li>Link a Listado de Asociados</li>
     <li>Orden por de asociados mas Activos</li>
 </ul>
-

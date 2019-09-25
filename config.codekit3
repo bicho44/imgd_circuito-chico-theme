@@ -2647,84 +2647,20 @@
 		"oAP": "/page.php",
 		"oF": 0
 		},
-	"/piklist/parts/meta-boxes/destacados-metabox.php": {
+	"/piklist/parts/widgets/imgd_actividades-form.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/piklist/parts/meta-boxes/destacados-metabox.php",
+		"oAP": "/piklist/parts/widgets/imgd_actividades-form.php",
 		"oF": 0
 		},
-	"/piklist/parts/users/direccion.php": {
+	"/piklist/parts/widgets/imgd_actividades.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/piklist/parts/users/direccion.php",
-		"oF": 0
-		},
-	"/piklist/parts/users/foto.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/users/foto.php",
-		"oF": 0
-		},
-	"/piklist/parts/users/telefono.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/users/telefono.php",
-		"oF": 0
-		},
-	"/piklist/parts/widgets/userlists-form.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/widgets/userlists-form.php",
-		"oF": 0
-		},
-	"/piklist/parts/widgets/userlists.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/widgets/userlists.php",
-		"oF": 0
-		},
-	"/piklist/parts/workflows/datos-common.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/workflows/datos-common.php",
-		"oF": 0
-		},
-	"/piklist/parts/workflows/datos-extra-tab.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/workflows/datos-extra-tab.php",
-		"oF": 0
-		},
-	"/piklist/parts/workflows/datos-extra.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/workflows/datos-extra.php",
-		"oF": 0
-		},
-	"/piklist/parts/workflows/options.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/piklist/parts/workflows/options.php",
+		"oAP": "/piklist/parts/widgets/imgd_actividades.php",
 		"oF": 0
 		},
 	"/README.md": {

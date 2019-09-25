@@ -47,7 +47,7 @@ if (has_post_thumbnail()) {?>
         <div class="modal-inner">
             <header>
                 <h3 id="label-fade">Consulta por <?php the_title();?>
-                    </h2>
+                </h3>
             </header>
             <div class="modal-content">
                 <?php
