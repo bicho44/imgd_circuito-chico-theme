@@ -38,7 +38,7 @@ $back_image="";
         <?php
             the_content();
 
-            echo wpdocs_custom_taxonomies_terms_links();
+            //echo wpdocs_custom_taxonomies_terms_links();
 
 
             wp_link_pages(array(
