@@ -34,14 +34,18 @@ if ($actividades->have_posts()) {
     while ($actividades->have_posts()) : $actividades->the_post(); ?>
 <div class="ActividadWidget">
     <h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
-    <?php    $thumbnail_size="thumbnail";
-    if (isset($settings['imgd_actividades_widget_thumb_format'])) {
-        $thumbnail_size=$settings['imgd_actividades_widget_thumb_format'];
-    } ?>
+    <?php
+    if ($settings['imgd_actividades_widget_thumb']!=0) {
+        $thumbnail_size="thumbnail";
+        if (isset($settings['imgd_actividades_widget_thumb_format'])) {
+            $thumbnail_size=$settings['imgd_actividades_widget_thumb_format'];
+        } ?>
     <a href="<?php the_permalink() ?>">
         <?php
     the_post_thumbnail($thumbnail_size, array('class'=>'ActividadWidgetImagen')); ?>
     </a>
+    <?php
+    } ?>
 </div>
 <?php
     endwhile; ?>
