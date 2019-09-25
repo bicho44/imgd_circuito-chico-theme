@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IMGD Circuito Chico Adventures\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 21:38+0000\n"
+"POT-Creation-Date: 2019-09-25 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -19,59 +19,59 @@ msgstr ""
 msgid "Full Size Width Page"
 msgstr ""
 
-#: functions.php:51
+#: functions.php:52
 msgid "Primary"
 msgstr ""
 
-#: functions.php:112
+#: functions.php:115
 msgid "Front Page Sidebar"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:117
 msgid "Area para un Aviso Publicitario o un Banner central"
 msgstr ""
 
-#: functions.php:122
+#: functions.php:125
 msgid "Side Bar Top"
 msgstr ""
 
-#: functions.php:124
+#: functions.php:127
 msgid "Area de Widgets para un menu de idiomas o Redes Sociale"
 msgstr ""
 
-#: functions.php:132
+#: functions.php:135
 msgid "Front Page Sidebar 2 Linea columnas"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:137
 msgid "Area de Widgets para la línea de 3 columnas"
 msgstr ""
 
-#: functions.php:142
+#: functions.php:145
 msgid "Sidebar Paginas"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:147
 msgid "Columna General para las páginas y noticias."
 msgstr ""
 
-#: functions.php:152
+#: functions.php:155
 msgid "Footer SideBar 1"
 msgstr ""
 
-#: functions.php:154
+#: functions.php:157
 msgid "Primer espacio de Footer."
 msgstr ""
 
-#: functions.php:162
+#: functions.php:165
 msgid "Footer SideBar 2"
 msgstr ""
 
-#: functions.php:164 functions.php:174
+#: functions.php:167 functions.php:177
 msgid "Segundo espacio de Footer."
 msgstr ""
 
-#: functions.php:172
+#: functions.php:175
 msgid "Footer SideBar 3"
 msgstr ""
 
@@ -87,7 +87,11 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: single-imgd_actividad.php:63
+#: single-imgd_actividad.php:55
+msgid "Aspectos a tener en Cuenta"
+msgstr ""
+
+#: single-imgd_actividad.php:67
 msgid "Recorrido Recomendado"
 msgstr ""
 
@@ -99,11 +103,15 @@ msgstr ""
 msgid "Continued"
 msgstr ""
 
-#: imgd-framework/imgd_funciones.php:189
+#: imgd-framework/imgd_funciones.php:80
+msgid "Back to Top ˆ"
+msgstr ""
+
+#: imgd-framework/imgd_funciones.php:188
 msgid "Social"
 msgstr ""
 
-#: imgd-framework/imgd_funciones.php:190
+#: imgd-framework/imgd_funciones.php:189
 msgid "Secundario"
 msgstr ""
 
@@ -149,7 +157,7 @@ msgstr ""
 msgid "IMGD: Destacadas"
 msgstr ""
 
-#: template-parts/content-archive-desta-news.php:35
+#: template-parts/content-archive-desta-news.php:37
 msgid "Consulta por esta actividad"
 msgstr ""
 
@@ -161,113 +169,44 @@ msgstr ""
 msgid "Nuestras Actividades"
 msgstr ""
 
-#: piklist/parts/meta-boxes/destacados-metabox.php:19
-msgid "Mostrar en SlideShow"
+#: piklist/parts/widgets/imgd_actividades-form.php:13
+msgid "Titulo Descriptivo"
 msgstr ""
 
-#: piklist/parts/meta-boxes/destacados-metabox.php:25
-msgid "No mostrar"
+#: piklist/parts/widgets/imgd_actividades-form.php:22
+msgid "Cantidad de actividades a mostrar"
 msgstr ""
 
-#: piklist/parts/meta-boxes/destacados-metabox.php:26
-msgid "Mostrar"
-msgstr ""
-
-#: piklist/parts/meta-boxes/destacados-metabox.php:38
-#: piklist/parts/meta-boxes/destacados-metabox.php:46
-msgid "Destacar"
-msgstr ""
-
-#: piklist/parts/meta-boxes/destacados-metabox.php:39
-msgid "Colocar este item en la Home Page en la segunda línea"
-msgstr ""
-
-#: piklist/parts/meta-boxes/destacados-metabox.php:45
-msgid "No Destacar"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:12
-msgid "Dirección"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:17
-msgid "Street Address"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:23
-msgid "City"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:29
-msgid "Estado / Provincia"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:36
-msgid "País"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:43
-msgid "Seleccione un País"
-msgstr ""
-
-#: piklist/parts/users/direccion.php:49
-msgid "Postal Code"
-msgstr ""
-
-#: piklist/parts/users/foto.php:15
-msgid "Imagen de Usuario"
-msgstr ""
-
-#: piklist/parts/users/foto.php:16
-msgid "Imagen de usuario"
-msgstr ""
-
-#: piklist/parts/users/foto.php:26
-msgid "Medio al que representa"
-msgstr ""
-
-#: piklist/parts/users/telefono.php:13
-msgid "Contactos"
-msgstr ""
-
-#: piklist/parts/users/telefono.php:18
-msgid "Tel"
-msgstr ""
-
-#: piklist/parts/users/telefono.php:26
-msgid "Cel"
-msgstr ""
-
-#: piklist/parts/widgets/userlists-form.php:9
-msgid "Titulo"
-msgstr ""
-
-#: piklist/parts/widgets/userlists-form.php:31
+#: piklist/parts/widgets/imgd_actividades-form.php:32
 msgid "Muestra el Thumbnail"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:37
+#: piklist/parts/widgets/imgd_actividades-form.php:38
 msgid "No"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:38
+#: piklist/parts/widgets/imgd_actividades-form.php:39
 msgid "Si"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:49
+#: piklist/parts/widgets/imgd_actividades-form.php:50
 msgid "Formato del Thumbnail"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:55
+#: piklist/parts/widgets/imgd_actividades-form.php:56
 msgid "Cuadrado"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:56
+#: piklist/parts/widgets/imgd_actividades-form.php:57
 msgid "Redondo"
 msgstr ""
 
-#: piklist/parts/widgets/userlists-form.php:70
+#: piklist/parts/widgets/imgd_actividades-form.php:73
 msgid "Tamaño del Thumbnail"
+msgstr ""
+
+#: piklist/parts/widgets/imgd_actividades.php:51
+msgid "No hay actividades cargadas por favor cargue alguna actividad"
 msgstr ""
 
 #. Name of the theme
