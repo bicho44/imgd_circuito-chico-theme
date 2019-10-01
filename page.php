@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Turismo_InterOceánico
+ * @package Circuito_Chico
  */
 
 get_header(); ?>

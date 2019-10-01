@@ -1,4 +1,4 @@
-/** Cache Buster v1.5 **/
+/** Cache Buster v1.5.5 **/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -3776,6 +3776,9 @@ nav ul li a:hover {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
             flex-flow: row;
+    max-width: 320px;
+  }
+  .widget-area {
     max-width: 320px;
   }
 }
