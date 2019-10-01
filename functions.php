@@ -132,13 +132,14 @@ function turismointer_widgets_init()
     ));
 
     register_sidebar(array(
-        'name'          => esc_html__('Front Page Sidebar 2 Linea columnas', 'imgd'),
-        'id'            => 'front-page-sidebar-2',
-        'description'   => esc_html__('Area de Widgets para la línea de 3 columnas', 'imgd'),
-        'before_widget' => '<section id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
+        'name'          => esc_html__('Bottom Side Bar', 'imgd'),
+        'id'            => 'bottom-sidebar',
+        'description'   => esc_html__('Side bar que va debajo del contenido y antes del Footer', 'imgd'),
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</li>',
+        'class'         => '',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
     ));
 
     register_sidebar(array(

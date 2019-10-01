@@ -22,7 +22,7 @@ get_header(); ?>
 </header>
 
 <?php
-        while (have_posts()) : the_post();
+while (have_posts()) : the_post();
 ?>
 <section class="actividad-single">
 	<div class="actividad-descripcion">

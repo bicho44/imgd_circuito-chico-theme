@@ -11,6 +11,12 @@
 
 $class="align-right";
 ?>
+<?php if (is_active_sidebar('bottom-sidebar')) { ?>
+<div class="bottom-sidebar-wrapper">
+	<?php dynamic_sidebar('bottom-sidebar'); ?>
+</div>
+<?php } ?>
+
 <section class="wrapfooter">
 	<footer id="colophon" role="contentinfo">
 		<div class="footer__contenido">

@@ -3436,10 +3436,13 @@ nav ul li a:hover {
     display: none;
   }
   .header_nav {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr auto minmax(60rem, 3fr) minmax(auto, 1fr) 1fr;
     grid-template-columns: 1fr auto minmax(60rem, 3fr) minmax(auto, 1fr) 1fr;
   }
   .header__logo {
+    -ms-grid-column: 2;
     grid-column: 2;
   }
   .header__logo img {
@@ -3524,19 +3527,26 @@ nav ul li a:hover {
   margin: 2rem 1.5rem;
 }
 .actividades {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   font-size: 1.5rem;
 }
 .actividades h1 {
-  grid-column-start: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 1;
   grid-column-end: 2;
   margin-bottom: 2rem;
 }
 .actividades .actividad {
   text-align: center;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: [linea1] 1fr [linea2] 1fr [linea3] auto [linea4] auto [linea5];
   grid-template-rows: [linea1] 1fr [linea2] 1fr [linea3] auto [linea4] auto [linea5];
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   margin-bottom: 1rem;
 }
@@ -3578,17 +3588,23 @@ nav ul li a:hover {
   -webkit-clip-path: circle();
           clip-path: circle();
   margin: 0;
-  grid-row-start: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-row-span: 2;
   grid-row-end: 3;
+  -ms-grid-column: 1;
   grid-column: 1;
 }
 .actividades .actividad h3 {
   z-index: 800;
+  -ms-grid-row: 2;
   grid-row: 2;
+  -ms-grid-column: 1;
   grid-column: 1;
   text-align: center;
   font-size: 1.8rem;
-  align-self: end;
+  -ms-grid-row-align: end;
+      align-self: end;
   font-size: 2.2rem;
   line-height: 1.6;
 }
@@ -3603,34 +3619,45 @@ nav ul li a:hover {
 }
 .actividades .actividad .actividad-caption {
   font-size: 1.6rem;
+  -ms-grid-row: 3;
   grid-row: 3;
+  -ms-grid-column: 1;
   grid-column: 1;
   padding-top: 1rem;
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 @media screen and (min-width: 540px) {
   .actividades {
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
   }
   .actividades h1 {
-    grid-column-start: 1;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
     grid-column-end: 3;
   }
 }
 @media screen and (min-width: 768px) {
   .actividades {
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
   .actividades h1 {
-    grid-column-start: 1;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
     grid-column-end: 5;
   }
 }
 /* Container Data */
 .contenedor {
   /*padding: 3rem 0;*/
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1em auto 1em;
   grid-template-columns: 1em auto 1em;
   position: relative;
 }
@@ -3638,6 +3665,7 @@ nav ul li a:hover {
 .contenedor h2,
 .contenedor p,
 .contenedor blockquote {
+  -ms-grid-column: 2;
   grid-column: 2;
 }
 .contenedor h2 {
@@ -3671,6 +3699,7 @@ nav ul li a:hover {
 }
 @media screen and (min-width: 76.5rem) {
   .contenedor {
+    -ms-grid-columns: 1fr minmax(auto, 76.5rem) 1fr;
     grid-template-columns: 1fr minmax(auto, 76.5rem) 1fr;
     font-size: 1.6rem;
   }
@@ -3727,7 +3756,7 @@ nav ul li a:hover {
   padding: 0 2rem;
 }
 .actividad-aspectos-importantes {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(80, 80, 80, 0.5);
   padding: 2rem;
 }
 .actividad-aspectos-importantes h3 {
@@ -3741,6 +3770,14 @@ nav ul li a:hover {
 .actividad-aspectos-importantes ul li {
   margin-bottom: 0.8rem;
   padding: 0.5rem;
+}
+@media screen and (min-width: 760px) {
+  .actividad-aspectos-importantes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-flow: row;
+    max-width: 320px;
+  }
 }
 .actividad-itinerario {
   display: -webkit-box;
@@ -3764,9 +3801,10 @@ nav ul li a:hover {
   align-content: stretch;
 }
 .actividad-galeria img {
-  max-width: 200px;
+  max-width: 320px;
+  min-width: 160px;
 }
-/* Actidvidad Listado */
+/* Actividad Listado */
 .actividades-listado {
   display: -webkit-box;
   display: flex;
