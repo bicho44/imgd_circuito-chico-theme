@@ -3845,10 +3845,10 @@ nav ul li a:hover {
 /* Price Tag */
 .pricetag2 {
   position: absolute;
-  background-color: rgba(40, 143, 65, 0.8);
+  background-color: rgba(24, 112, 46, 0.9);
   padding: 0.5em;
   border-radius: 0.5em;
-  box-shadow: 2px 2px 2px #175326;
+  box-shadow: 2px 2px 2px #0b3114;
   -webkit-transform: rotate(12deg);
           transform: rotate(12deg);
   display: -webkit-box;
@@ -3861,6 +3861,7 @@ nav ul li a:hover {
   color: white;
   font-size: 2rem;
   font-weight: bold;
+  z-index: 30;
 }
 .wrapfooter {
   background-color: #333333;
