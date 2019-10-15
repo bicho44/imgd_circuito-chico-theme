@@ -220,8 +220,29 @@ nav {
     display: grid;
     grid-template-rows: [linea1] 1fr [linea2] 1fr [linea3] auto [linea4] auto [linea5];
     grid-template-columns: 1fr;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
+    position: relative;
 
+    .precio {
+      background-color: red;
+      border-radius: 50%;
+
+      width: 65px;
+      height: 65px;
+      color: white;
+
+      display: flex;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      text-align: center;
+      font-size: 2rem;
+
+      position: absolute;
+      top: 0;
+      right: 5vw;
+    }
     a {
       color: @text-nav;
       text-decoration: none;
@@ -482,3 +503,50 @@ nav {
     flex: 1 0 24%;
   }
 }
+
+/* Price Tag */
+
+.pricetag2 {
+  position: absolute;
+  background-color: rgba(40, 143, 65, 0.8);
+  padding: 0.5em;
+  border-radius: 0.5em;
+
+  box-shadow: 2px 2px 2px darken(rgb(40, 143, 65), 15);
+
+  transform: rotate(12deg);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  top: 25%;
+  right: 0.8em;
+
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+// .pricetag2 {
+//   position: absolute;
+//   height: 70px;
+//   width: 0px;
+
+//   border-left: 30px solid rgba(40, 143, 65, 0.8);
+//   border-right: 30px solid rgba(40, 143, 65, 0.8);
+//   border-bottom: 20px solid transparent;
+
+//   display: flex;
+//   align-items: center;
+//   justify-items: center;
+//   text-align: center;
+//   margin: -0.5em;
+
+//   top: 0;
+//   right: 0.5em;
+
+//   color: white;
+//   font-size: 2rem;
+//   font-weight: bold;
+// }

@@ -3548,7 +3548,28 @@ nav ul li a:hover {
   grid-template-rows: [linea1] 1fr [linea2] 1fr [linea3] auto [linea4] auto [linea5];
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
+  position: relative;
+}
+.actividades .actividad .precio {
+  background-color: red;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  align-self: center;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  right: 5vw;
 }
 .actividades .actividad a {
   color: #fff;
@@ -3820,6 +3841,26 @@ nav ul li a:hover {
   padding: 0 1rem;
   -webkit-box-flex: 1;
           flex: 1 0 24%;
+}
+/* Price Tag */
+.pricetag2 {
+  position: absolute;
+  background-color: rgba(40, 143, 65, 0.8);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px #175326;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+  top: 25%;
+  right: 0.8em;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .wrapfooter {
   background-color: #333333;
