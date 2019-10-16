@@ -1,4 +1,4 @@
-/** Cache Buster v1.6 **/
+/** Cache Buster v1.6.5 **/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -2897,16 +2897,21 @@ select[multiple].input-lg {
 }
 div.wpcf7 .ajax-loader {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 130px;
+  right: 130px;
+  width: 95px;
+  height: 95px;
+  background-image: url("../images/ajax-loader.gif");
 }
 .wpcf7-submit {
   background-color: #5cb85c;
   color: white;
-  width: 50vw;
+  width: 256px;
   cursor: pointer;
-  padding: 1rem;
+  padding: 8px;
   margin: auto;
+  box-shadow: 2px 2px 2px #3d8b3d;
+  font-size: 1.5rem;
 }
 .wpcf7-submit:hover {
   background-color: #449d44;
@@ -2916,6 +2921,7 @@ div.wpcf7 .ajax-loader {
   top: 0;
   left: 0;
   color: #fff;
+  padding: 8px;
 }
 .wpcf7-mail-sent-ok {
   background: #5cb85c;

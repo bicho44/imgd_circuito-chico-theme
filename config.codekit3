@@ -782,6 +782,14 @@
 		"oAP": "/assets/fonts/FontAwesome.otf",
 		"oF": 0
 		},
+	"/assets/images/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 2545,
+		"oA": 0,
+		"oAP": "/assets/images/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/assets/images/favicon.png": {
 		"ft": 32768,
 		"iS": 1234,
@@ -814,6 +822,22 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 90
+		},
+	"/assets/images/spinner-loader.gif": {
+		"ft": 4194304,
+		"iS": 21147,
+		"oA": 0,
+		"oAP": "/assets/images/spinner-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/assets/images/spinner.gif": {
+		"ft": 4194304,
+		"iS": 29471,
+		"oA": 0,
+		"oAP": "/assets/images/spinner.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/assets/images/teaser-image-baja.jpg": {
 		"ft": 16384,
@@ -2500,6 +2524,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/imgd-framework/imgd_widgets.php",
+		"oF": 0
+		},
+	"/imgd-framework/imgd_wpcf7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/imgd-framework/imgd_wpcf7.php",
 		"oF": 0
 		},
 	"/imgd-framework/mobile/Mobile_Detect.php": {
