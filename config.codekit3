@@ -695,6 +695,24 @@
 		"oAP": "/assets/css/admin.css.map",
 		"oF": 0
 		},
+	"/assets/css/carrousel-jetpack.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/carrousel-jetpack-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/carrousel-jetpack.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/css/carrousel-jetpack.css.map",
+		"oF": 0
+		},
 	"/assets/css/modal.less": {
 		"aP": 0,
 		"bl": 0,
@@ -789,6 +807,94 @@
 		"oAP": "/assets/images/ajax-loader.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"/assets/images/carousel/arrows-2x.png": {
+		"ft": 32768,
+		"iS": 10063,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/arrows-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/arrows.png": {
+		"ft": 32768,
+		"iS": 4529,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/arrows.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-likereblog-2x.png": {
+		"ft": 32768,
+		"iS": 1096,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-likereblog-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-likereblog.png": {
+		"ft": 32768,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-likereblog.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-link-2x.png": {
+		"ft": 32768,
+		"iS": 867,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-link-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-link.png": {
+		"ft": 32768,
+		"iS": 431,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-link.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-sprite-2x.png": {
+		"ft": 32768,
+		"iS": 2076,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-sprite-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
+		},
+	"/assets/images/carousel/carousel-sprite.png": {
+		"ft": 32768,
+		"iS": 1318,
+		"oA": 0,
+		"oAP": "/assets/images/carousel/carousel-sprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 90
 		},
 	"/assets/images/favicon.png": {
 		"ft": 32768,
@@ -1131,6 +1237,23 @@
 		"mS": 1,
 		"oA": 1,
 		"oAP": "/assets/css/carousel.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/assets/less/carrousel-jetpack.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 1,
+		"oA": 1,
+		"oAP": "/assets/css/carrousel-jetpack.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
