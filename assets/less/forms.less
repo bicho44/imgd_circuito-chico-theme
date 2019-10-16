@@ -626,7 +626,8 @@ input[type="checkbox"] {
 }
 
 .wpcf7 .ajax-loader {
-  display: hidden;
+  visibility: hidden;
+  display: inline-block;
 
   position: absolute;
   top: 130px;
@@ -639,6 +640,9 @@ input[type="checkbox"] {
   background-repeat: no-repeat;
 }
 
+.wpcf7 .ajax-loader.is-active {
+  visibility: visible;
+}
 .wpcf7-submit {
   background-color: @brand-success;
   color: white;
@@ -674,7 +678,8 @@ span.wpcf7-not-valid-tip {
   font-weight: normal;
   display: block;
 }
-div.wpcf7 .screen-reader-response {
+
+.wpcf7 .screen-reader-response {
   position: absolute;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
@@ -683,4 +688,8 @@ div.wpcf7 .screen-reader-response {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.wpcf7 .wpcf7-submit:disabled {
+  cursor: not-allowed;
 }
