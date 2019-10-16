@@ -5,6 +5,17 @@
 //@import "main.less";
 @import "my-mixins.less";
 
+/* Botones */
+a {
+  &.btn--consulta {
+    .btn(#fff; @back-btn-color-consulta);
+  }
+
+  &.btn--vermas {
+    .btn(#fff; @back-btn-color-vermas);
+  }
+}
+
 /* Header Section */
 .header_nav,
 nav {
@@ -250,15 +261,6 @@ nav {
       &:hover {
         color: @background-nav;
       }
-
-      /* Botones */
-      &.btn--consulta {
-        .btn(#fff; @back-btn-color-consulta);
-      }
-
-      &.btn--vermas {
-        .btn(#fff; @back-btn-color-vermas);
-      }
     }
 
     img {
@@ -453,8 +455,9 @@ nav {
     }
   }
 }
+
 @media screen and (min-width: 760px) {
-  .actividad-aspectos-importantes {
+  .side-bar-actividad {
     flex-flow: row;
     max-width: 320px;
   }
@@ -506,49 +509,34 @@ nav {
 
 /* Price Tag */
 
-.pricetag2 {
-  position: absolute;
+.pricetag {
+  font-size: 2rem;
+
   background-color: rgba(24, 112, 46, 0.9);
   padding: 0.8em;
   border-radius: 0.8em;
-
-  box-shadow: 2px 2px 3px darken(rgb(24, 112, 46), 25);
-
-  transform: rotate(12deg);
 
   display: flex;
   align-items: center;
   text-align: center;
 
+  color: white;
+  font-weight: bold;
+}
+
+.pricetag--front {
+  position: absolute;
+  box-shadow: 2px 2px 3px darken(rgb(24, 112, 46), 25);
+
+  transform: rotate(12deg);
+
   top: 25%;
   right: 0.8em;
-
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-
   z-index: 30;
 }
 
-// .pricetag2 {
-//   position: absolute;
-//   height: 70px;
-//   width: 0px;
-
-//   border-left: 30px solid rgba(40, 143, 65, 0.8);
-//   border-right: 30px solid rgba(40, 143, 65, 0.8);
-//   border-bottom: 20px solid transparent;
-
-//   display: flex;
-//   align-items: center;
-//   justify-items: center;
-//   text-align: center;
-//   margin: -0.5em;
-
-//   top: 0;
-//   right: 0.5em;
-
-//   color: white;
-//   font-size: 2rem;
-//   font-weight: bold;
-// }
+.side-bar-actividad {
+  .pricetag {
+    margin-bottom: 8px;
+  }
+}

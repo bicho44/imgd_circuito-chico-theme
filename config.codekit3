@@ -2787,6 +2787,22 @@
 		"oAP": "/taxonomy-evento.php",
 		"oF": 0
 		},
+	"/template-parts/activities/botones-consulta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/activities/botones-consulta.php",
+		"oF": 0
+		},
+	"/template-parts/activities/modal-consulta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/activities/modal-consulta.php",
+		"oF": 0
+		},
 	"/template-parts/carrousel.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -1,4 +1,4 @@
-/** Cache Buster v1.5.5 **/
+/** Cache Buster v1.6 **/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -3328,6 +3328,31 @@ div.wpcf7 .ajax-loader {
 * Devuelve un formato para botones
 *
 **/
+/* Botones */
+a.btn--consulta {
+  display: inline-block;
+  padding: 1rem;
+  color: #fff;
+  background-color: #e7770e;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+a.btn--consulta:hover {
+  color: #fff;
+  background-color: #874508;
+}
+a.btn--vermas {
+  display: inline-block;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgba(11, 116, 116, 0.8);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+a.btn--vermas:hover {
+  color: #fff;
+  background-color: rgba(2, 23, 23, 0.8);
+}
 /* Header Section */
 .header_nav,
 nav {
@@ -3574,34 +3599,9 @@ nav ul li a:hover {
 .actividades .actividad a {
   color: #fff;
   text-decoration: none;
-  /* Botones */
 }
 .actividades .actividad a:hover {
   color: rgba(116, 11, 11, 0.8);
-}
-.actividades .actividad a.btn--consulta {
-  display: inline-block;
-  padding: 1rem;
-  color: #fff;
-  background-color: #e7770e;
-  border-radius: 2rem;
-  text-decoration: none;
-}
-.actividades .actividad a.btn--consulta:hover {
-  color: #fff;
-  background-color: #874508;
-}
-.actividades .actividad a.btn--vermas {
-  display: inline-block;
-  padding: 1rem;
-  color: #fff;
-  background-color: rgba(11, 116, 116, 0.8);
-  border-radius: 2rem;
-  text-decoration: none;
-}
-.actividades .actividad a.btn--vermas:hover {
-  color: #fff;
-  background-color: rgba(2, 23, 23, 0.8);
 }
 .actividades .actividad img {
   max-width: 100%;
@@ -3793,7 +3793,7 @@ nav ul li a:hover {
   padding: 0.5rem;
 }
 @media screen and (min-width: 760px) {
-  .actividad-aspectos-importantes {
+  .side-bar-actividad {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
             flex-flow: row;
@@ -3843,25 +3843,30 @@ nav ul li a:hover {
           flex: 1 0 24%;
 }
 /* Price Tag */
-.pricetag2 {
-  position: absolute;
+.pricetag {
+  font-size: 2rem;
   background-color: rgba(24, 112, 46, 0.9);
-  padding: 0.5em;
-  border-radius: 0.5em;
-  box-shadow: 2px 2px 2px #020703;
-  -webkit-transform: rotate(12deg);
-          transform: rotate(12deg);
+  padding: 0.8em;
+  border-radius: 0.8em;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
   text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.pricetag--front {
+  position: absolute;
+  box-shadow: 2px 2px 3px #020703;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
   top: 25%;
   right: 0.8em;
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
   z-index: 30;
+}
+.side-bar-actividad .pricetag {
+  margin-bottom: 8px;
 }
 .wrapfooter {
   background-color: #333333;
