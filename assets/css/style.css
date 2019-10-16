@@ -2392,7 +2392,7 @@ legend {
   border-bottom: 1px solid #e5e5e5;
 }
 label {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
@@ -2890,18 +2890,23 @@ select[multiple].input-lg {
 /* Form Style */
 .wpcf7 {
   background-color: #f7f7f7;
+  width: 80%;
+  margin: auto;
 }
-.wpcf7input input,
+.wpcf7 input,
 .wpcf7 textarea {
   border: 1px solid #e7ecee;
+  width: 80%;
 }
-div.wpcf7 .ajax-loader {
+.wpcf7 .ajax-loader {
+  display: hidden;
   position: absolute;
   top: 130px;
   right: 130px;
-  width: 95px;
-  height: 95px;
+  width: 24px;
+  height: 24px;
   background-image: url("../images/ajax-loader.gif");
+  background-repeat: no-repeat;
 }
 .wpcf7-submit {
   background-color: #5cb85c;
@@ -2928,6 +2933,22 @@ div.wpcf7 .ajax-loader {
 }
 .wpcf7-validation-errors {
   background: #f0ad4e;
+}
+span.wpcf7-not-valid-tip {
+  color: #f00;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+}
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 .has-overlay {
   overflow: hidden;
